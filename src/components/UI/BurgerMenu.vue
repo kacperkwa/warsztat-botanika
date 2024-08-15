@@ -1,12 +1,14 @@
 <template>
   <div>
-    <i class="fa-solid fa-bars"></i>
+    <button><i class="fa-solid fa-bars"></i></button>
   </div>
 </template>
-<script setup></script>
 <style scoped>
 i {
   font-size: 2rem;
   cursor: pointer;
+}
+button {
+  border: none;
 }
 </style>

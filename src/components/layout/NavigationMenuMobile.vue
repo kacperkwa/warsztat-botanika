@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <div class="close-nav">X</div>
+    <div class="close-nav"><i class="fa-solid fa-xmark"></i></div>
     <ul>
       <li><a href="">kim jestem</a></li>
       <li><a href="">projekty</a></li>
@@ -27,6 +27,7 @@ nav {
 ul {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 5rem;
 }
 a {
@@ -34,5 +35,11 @@ a {
   font-size: 1.6rem;
   color: var(--text-color-secondary);
   text-decoration: none;
+}
+.fa-xmark {
+  font-size: 2rem;
+  color: var(--text-color-secondary);
+  cursor: pointer;
+  padding: 1rem;
 }
 </style>
