@@ -22,13 +22,15 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100vh;
   top: 0;
   left: 0;
   padding: 2rem;
   background-color: var(--background-color-secondary);
+  overflow-y: auto;
+  z-index: 1000;
 }
 ul {
   display: flex;

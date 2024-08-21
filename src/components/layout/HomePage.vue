@@ -16,13 +16,13 @@
       </div>
       <hr />
     </div>
-    <section>
+    <section class="header-content">
       <NavigationMenuMobile v-if="isMenuOpen" @closeMenu="toggleNav"></NavigationMenuMobile>
       <div class="header-title">
         <h2>Rozpocznij projektowanie</h2>
         <p>i odpocznij w swoim ogrodzie</p>
       </div>
-      <div>
+      <div class="header-image-container">
         <img
           class="header-img"
           src="../../assets/img/header-img.jpg"
@@ -64,16 +64,24 @@ onUnmounted(() => {
 body {
   background-color: red;
 }
-header {
+/* header {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100vh;
-  min-height: 600px;
+  min-height: 100vh;
   background-color: var(--background-color-primary);
   color: var(--text-color-primary);
   padding: 1rem 2rem;
+} */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem;
+  min-height: 100vh; /* Full viewport height */
+  background-color: var(--background-color-primary);
+  color: var(--text-color-primary);
 }
 nav ul {
   display: flex;
@@ -122,21 +130,31 @@ nav ul li:last-child {
 }
 hr {
   width: 100%;
+  max-width: 1200px;
 }
-section {
+.header-content {
   display: flex;
   flex-direction: column;
   gap: 5rem;
   width: 100%;
   height: 100%;
   max-width: 1200px;
+  flex: 1;
 }
 .header-title h2 {
   font-size: calc(2.5rem + 1vw);
   width: 50%;
 }
+.header-image-container {
+  width: 100%;
+  max-width: 1200px;
+  overflow: hidden;
+  border-radius: 8px;
+}
 .header-img {
   width: 100%;
-  height: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+  display: block;
 }
 </style>
