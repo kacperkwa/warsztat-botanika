@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <div class="close-nav"><i class="fa-solid fa-xmark"></i></div>
+    <button class="close-nav" @click="closeMenu"><i class="fa-solid fa-xmark"></i></button>
     <ul>
       <li><a href="">kim jestem</a></li>
       <li><a href="">projekty</a></li>
@@ -9,7 +9,13 @@
     </ul>
   </nav>
 </template>
-<script setup></script>
+<script setup>
+import { defineEmits } from 'vue'
+const emit = defineEmits(['closeMenu'])
+const closeMenu = () => {
+  emit('closeMenu')
+}
+</script>
 
 <style scoped>
 nav {
@@ -36,10 +42,12 @@ a {
   color: var(--text-color-secondary);
   text-decoration: none;
 }
-.fa-xmark {
-  font-size: 2rem;
+button {
+  display: flex;
+  border: none;
+  background: none;
   color: var(--text-color-secondary);
+  font-size: 2rem;
   cursor: pointer;
-  padding: 1rem;
 }
 </style>

@@ -17,7 +17,7 @@
       <hr />
     </div>
     <main>
-      <NavigationMenuMobile v-if="isMenuOpen"></NavigationMenuMobile>
+      <NavigationMenuMobile v-if="isMenuOpen" @closeMenu="toggleNav"></NavigationMenuMobile>
       <div class="header-title">
         <h2>Rozpocznij projektowanie</h2>
         <p>i odpocznij w swoim ogrodzie</p>
@@ -39,12 +39,13 @@ import NavigationMenuMobile from '@/components/layout/NavigationMenuMobile.vue'
 import { ref, onMounted, onUnmounted } from 'vue'
 import { useNavStore } from '@/stores/nav.js'
 const navStore = useNavStore()
+const isMenuOpen = ref(false)
 
 const isWideScreen = ref(false)
 
 const toggleNav = () => {
   navStore.toggleNavMenu()
-  console.log('asd')
+  isMenuOpen.value = navStore.isNavOpen
 }
 const checkScreenWidth = () => {
   isWideScreen.value = window.matchMedia('(min-width: 768px)').matches
