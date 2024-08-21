@@ -7,7 +7,6 @@ export const useNavStore = defineStore('nav', {
   actions: {
     toggleNavMenu() {
       this.isNavOpen = !this.isNavOpen
-      console.log('asd')
     }
   }
 })

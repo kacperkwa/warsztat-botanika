@@ -7,6 +7,7 @@
 i {
   font-size: 2rem;
   cursor: pointer;
+  color: black;
 }
 button {
   border: none;

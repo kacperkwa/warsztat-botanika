@@ -16,7 +16,7 @@
       </div>
       <hr />
     </div>
-    <main>
+    <section>
       <NavigationMenuMobile v-if="isMenuOpen" @closeMenu="toggleNav"></NavigationMenuMobile>
       <div class="header-title">
         <h2>Rozpocznij projektowanie</h2>
@@ -29,7 +29,7 @@
           alt="Header image, place to rest in your garden."
         />
       </div>
-    </main>
+    </section>
     <hr />
   </header>
 </template>
@@ -61,12 +61,16 @@ onUnmounted(() => {
 })
 </script>
 <style scoped>
+body {
+  background-color: red;
+}
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   height: 100vh;
+  min-height: 600px;
   background-color: var(--background-color-primary);
   color: var(--text-color-primary);
   padding: 1rem 2rem;
@@ -119,7 +123,7 @@ nav ul li:last-child {
 hr {
   width: 100%;
 }
-main {
+section {
   display: flex;
   flex-direction: column;
   gap: 5rem;
@@ -134,6 +138,5 @@ main {
 .header-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 </style>
