@@ -18,9 +18,16 @@
     </div>
     <section class="header-content">
       <NavigationMenuMobile v-if="isMenuOpen" @closeMenu="toggleNav"></NavigationMenuMobile>
-      <div class="header-title">
-        <h2>Rozpocznij projektowanie</h2>
-        <p>i odpocznij w swoim ogrodzie</p>
+      <div class="header-text">
+        <img
+          class="logo"
+          src="../../assets/img/warsztatbotanika-logo.png"
+          alt="logo-warsztat-botanika"
+        />
+        <div class="header-text-container">
+          <h2>Rozpocznij projektowanie</h2>
+          <p>i odpocznij w swoim ogrodzie</p>
+        </div>
       </div>
       <div class="header-image-container">
         <img
@@ -28,6 +35,12 @@
           src="../../assets/img/header-img.jpg"
           alt="Header image, place to rest in your garden."
         />
+        <!-- <img
+          v-if="!isWideScreen"
+          class="header-img"
+          src="../../assets/img/portfolio-1.jpg"
+          alt="Header image, place to rest in your garden."
+        /> -->
       </div>
     </section>
     <hr />
@@ -61,25 +74,12 @@ onUnmounted(() => {
 })
 </script>
 <style scoped>
-body {
-  background-color: red;
-}
-/* header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  min-height: 100vh;
-  background-color: var(--background-color-primary);
-  color: var(--text-color-primary);
-  padding: 1rem 2rem;
-} */
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem 1rem;
-  min-height: 100vh; /* Full viewport height */
+  padding: 1rem 2rem;
+  min-height: 100vh;
   background-color: var(--background-color-primary);
   color: var(--text-color-primary);
 }
@@ -130,7 +130,6 @@ nav ul li:last-child {
 }
 hr {
   width: 100%;
-  max-width: 1200px;
 }
 .header-content {
   display: flex;
@@ -141,20 +140,68 @@ hr {
   max-width: 1200px;
   flex: 1;
 }
-.header-title h2 {
-  font-size: calc(2.5rem + 1vw);
+.header-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+.header-text h2 {
+  font-size: calc(1.5rem + 2vw);
   width: 50%;
 }
+.header-text p {
+  font-size: calc(1.2rem + 1vw);
+  width: 50%;
+}
+.header-text .logo {
+  width: 30vw;
+  max-width: 250px;
+  object-fit: contain;
+}
+.header-text-container {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
 .header-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   width: 100%;
   max-width: 1200px;
-  overflow: hidden;
   border-radius: 8px;
 }
 .header-img {
   width: 100%;
-  max-height: 70vh;
-  object-fit: contain;
+  height: auto;
+  max-height: 50vh;
+  min-height: 400px;
+  object-fit: cover;
+  object-position: bottom;
   display: block;
+}
+@media (max-width: 768px) {
+  .header-top {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .header-top h1 {
+    font-size: 1.2rem;
+  }
+  .header-text h2,
+  .header-text p {
+    width: 100%;
+  }
+
+  .header-img {
+    height: auto;
+    max-height: 40vh;
+    object-fit: cover;
+  }
 }
 </style>
