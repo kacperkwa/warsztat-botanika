@@ -2,7 +2,7 @@
   <nav>
     <button class="close-nav" @click="closeMenu"><i class="fa-solid fa-xmark"></i></button>
     <ul>
-      <li><a href="">kim jestem</a></li>
+      <li><a href="#aboutme">kim jestem</a></li>
       <li><a href="">projekty</a></li>
       <li><a href="">oferta</a></li>
       <li><a href="">pierwszy krok</a></li>

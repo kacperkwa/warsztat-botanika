@@ -6,7 +6,7 @@
         <h1>warsztat botanika</h1>
         <nav v-if="isWideScreen">
           <ul>
-            <li><a href="">kim jestem</a></li>
+            <li><a href="#aboutme">kim jestem</a></li>
             <li><a href="">projekty</a></li>
             <li><a href="">oferta</a></li>
             <li><a href="">pierwszy krok</a></li>
