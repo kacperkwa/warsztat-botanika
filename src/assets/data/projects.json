@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Projekt Ogrodu 1",
+    "location": "Warszawa",
+    "thumbnail": "projekt1-thumb.jpg",
+    "images": ["projekt1-1.jpg", "projekt1-2.jpg", "projekt1-3.jpg"],
+    "description": "Krótki opis projektu 1."
+  },
+  {
+    "id": 2,
+    "title": "Projekt Ogrodu 2",
+    "location": "Kraków",
+    "thumbnail": "projekt2-thumb.jpg",
+    "images": ["projekt2-1.jpg", "projekt2-2.jpg"],
+    "description": "Krótki opis projektu 2."
+  }
+]
