@@ -72,7 +72,7 @@ p {
 @media (max-width: 768px) {
   #aboutme {
     flex-direction: column;
-    height: auto;
+    height: 100vh;
   }
   .container {
     flex-direction: column;
