@@ -20,7 +20,8 @@ div {
 p {
   margin: 0;
   padding: 0 1rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  letter-spacing: .1rem;
 }
 
 p:first-child {
