@@ -35,7 +35,7 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
   align-items: center;
   justify-content: center;
   padding: 2rem 2rem 6rem 2rem;
-  height: 100vh;
+  min-height: 100vh;
   background-color: var(--background-color-secondary);
   color: var(--text-color-secondary);
   position: relative;
@@ -45,47 +45,46 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  flex-wrap: wrap;
   max-width: 1200px;
 }
 .text-container {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 50%;
   padding: 2rem;
 }
 h2 {
   text-transform: uppercase;
-  font-size: calc(2.8rem + 1vw);
-  margin-bottom: 2rem;
+  font-size: calc(2rem + 1vw);
+  margin-bottom: 3rem;
 }
 p {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  font-size: calc(1.2rem + 0.5vw);
+  font-size: calc(1rem + 0.5vw);
   line-height: 2.4rem;
 }
 .image-container {
-  width: 100%;
+  width: 50%;
   max-width: 500px;
 }
 @media (max-width: 768px) {
-  #aboutme {
-    flex-direction: column;
-    height: 100vh;
-  }
   .container {
-    flex-direction: column;
-    gap: 2rem;
+    justify-content: center;
   }
   .text-container {
     padding: 1rem;
+    width: 100%;
+  }
+  .image-container {
+    width: 100%;
   }
   h2 {
-    font-size: calc(2rem + 1vw);
+    margin-bottom: 2.5rem;
   }
   p {
-    font-size: calc(1rem + 0.5vw);
     line-height: 2rem;
     gap: 1rem;
   }
