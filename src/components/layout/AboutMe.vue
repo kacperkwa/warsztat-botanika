@@ -1,8 +1,8 @@
 <template>
-  <section id="aboutme">
+  <section id="aboutme" class="section-container">
     <div class="container">
-      <div class="text-container">
-        <h2>kim jestem</h2>
+      <h2 class="section-header">kim jestem</h2>
+      <div class="content-container">
         <p>
           <span
             >Przez 4 lata pracowałam w biurze projektowym działającym głównie na terenie
@@ -12,15 +12,19 @@
             >Teraz zakładam własną firmę. Style w jakich najczęściej projektuję to
             nowoczesny/modernistyczny, leśny, naturalistyczny.</span
           >
-          <span>
-            Priorytetem w moich projektach jest stworzenie przestrzeni do wypoczynku i realne
+          <span
+            >Priorytetem w moich projektach jest stworzenie przestrzeni do wypoczynku i realne
             możliwości wykonania, przy zachowaniu estetyki. /z dbałością o estetykę.</span
           >
           <span>Lubię kolor CZARNY, połączenie drewna i betonu, oraz tajemnicze zakątki..</span>
         </p>
-      </div>
-      <div class="image-container">
-        <img class="aboutme-img" src="../../assets/img/aboutme-image.webp" alt="About me image," />
+        <div class="image-container">
+          <img
+            class="aboutme-img"
+            src="../../assets/img/aboutme-image.webp"
+            alt="About me image,"
+          />
+        </div>
       </div>
     </div>
     <SectionFooter></SectionFooter>
@@ -32,32 +36,30 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
 <style scoped>
 #aboutme {
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 4rem 2rem 6rem 2rem;
   min-height: 100vh;
+  padding: 4rem 2rem 6rem 2rem;
   background-color: var(--background-color-secondary);
   color: var(--text-color-secondary);
   position: relative;
 }
 .container {
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
   max-width: 1200px;
 }
-.text-container {
+.content-container {
   display: flex;
-  flex-direction: column;
-  width: 50%;
+  width: 100%;
   padding: 2rem;
 }
 h2 {
   text-transform: uppercase;
   font-size: calc(2rem + 1vw);
-  margin-bottom: 3rem;
 }
 p {
   display: flex;
@@ -67,8 +69,15 @@ p {
   line-height: 2.4rem;
 }
 .image-container {
-  width: 50%;
+  width: 100%;
+  height: 100%;
   max-width: 500px;
+}
+.aboutme-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
 @media (max-width: 768px) {
   .container {
