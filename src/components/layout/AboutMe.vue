@@ -34,7 +34,7 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem 2rem 6rem 2rem;
+  padding: 4rem 2rem 6rem 2rem;
   min-height: 100vh;
   background-color: var(--background-color-secondary);
   color: var(--text-color-secondary);

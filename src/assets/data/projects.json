@@ -1,18 +1,38 @@
 [
   {
-    "id": 1,
-    "title": "Projekt Ogrodu 1",
+    "id": 0,
     "location": "Warszawa",
-    "thumbnail": "projekt1-thumb.jpg",
+    "thumbnail": "portfolio-1.jpg",
     "images": ["projekt1-1.jpg", "projekt1-2.jpg", "projekt1-3.jpg"],
-    "description": "Krótki opis projektu 1."
+    "description": "Krótki opis projektu 1.",
+    "fullDescription": "Długi opis projektu 1.",
+    "size": "100"
+  },
+  {
+    "id": 1,
+    "location": "Kraków",
+    "thumbnail": "portfolio-4.jpg",
+    "images": ["projekt2-1.jpg", "projekt2-2.jpg"],
+    "description": "Krótki opis projektu 2.",
+    "fullDescription": "Długi opis projektu 1.",
+    "size": "100"
   },
   {
     "id": 2,
-    "title": "Projekt Ogrodu 2",
-    "location": "Kraków",
-    "thumbnail": "projekt2-thumb.jpg",
+    "location": "Łukawiec",
+    "thumbnail": "portfolio-7.jpg",
     "images": ["projekt2-1.jpg", "projekt2-2.jpg"],
-    "description": "Krótki opis projektu 2."
+    "description": "Krótki opis projektu 2.",
+    "fullDescription": "Długi opis projektu 1.",
+    "size": "100"
+  },
+  {
+    "id": 3,
+    "location": "Trzebownisko",
+    "thumbnail": "portfolio-10.jpg",
+    "images": ["projekt2-1.jpg", "projekt2-2.jpg"],
+    "description": "Krótki opis projektu 2.",
+    "fullDescription": "Długi opis projektu 1.",
+    "size": "100"
   }
 ]
