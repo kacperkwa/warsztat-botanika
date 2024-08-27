@@ -67,7 +67,8 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
     flex-direction: column;
   }
   .text-container {
-    max-width: 100%;
+    min-width: 100%;
+    max-width: 500px;
   }
   .text-container p {
     gap: 2rem;

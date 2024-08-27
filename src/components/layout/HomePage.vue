@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header id="home">
     <div class="header-top">
       <div class="container">
         <BurgerMenu v-if="!isWideScreen" @click="toggleNav"></BurgerMenu>
@@ -35,12 +35,6 @@
           src="../../assets/img/header-img.jpg"
           alt="Header image, place to rest in your garden."
         />
-        <!-- <img
-          v-if="!isWideScreen"
-          class="header-img"
-          src="../../assets/img/portfolio-1.jpg"
-          alt="Header image, place to rest in your garden."
-        /> -->
       </div>
     </div>
     <hr />
