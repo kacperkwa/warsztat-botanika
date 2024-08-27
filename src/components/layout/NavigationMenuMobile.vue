@@ -2,10 +2,10 @@
   <nav>
     <button class="close-nav" @click="closeMenu"><i class="fa-solid fa-xmark"></i></button>
     <ul>
-      <li><a href="#aboutme">kim jestem</a></li>
-      <li><a href="">projekty</a></li>
-      <li><a href="">oferta</a></li>
-      <li><a href="">pierwszy krok</a></li>
+      <li><a href="#aboutme" @click="closeMenu">kim jestem</a></li>
+      <li><a href="#my-projects" @click="closeMenu">projekty</a></li>
+      <li><a href="" @click="closeMenu">oferta</a></li>
+      <li><a href="" @click="closeMenu">pierwszy krok</a></li>
     </ul>
   </nav>
 </template>
