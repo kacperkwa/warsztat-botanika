@@ -34,6 +34,7 @@ defineProps({
   margin-bottom: 1rem;
   width: 25%;
   min-width: 300px;
+  max-height: none;
 }
 .project-header {
   display: flex;

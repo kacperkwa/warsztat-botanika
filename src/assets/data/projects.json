@@ -25,14 +25,5 @@
     "description": "Krótki opis projektu 2.",
     "fullDescription": "Długi opis projektu 1.",
     "size": "100"
-  },
-  {
-    "id": 3,
-    "location": "Trzebownisko",
-    "thumbnail": "portfolio-10.jpg",
-    "images": ["projekt2-1.jpg", "projekt2-2.jpg"],
-    "description": "Krótki opis projektu 2.",
-    "fullDescription": "Długi opis projektu 1.",
-    "size": "100"
   }
 ]

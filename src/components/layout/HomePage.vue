@@ -16,7 +16,7 @@
       </div>
       <hr />
     </div>
-    <section class="header-content">
+    <div class="header-content">
       <NavigationMenuMobile v-if="isMenuOpen" @closeMenu="toggleNav"></NavigationMenuMobile>
       <div class="header-text">
         <img
@@ -42,7 +42,7 @@
           alt="Header image, place to rest in your garden."
         /> -->
       </div>
-    </section>
+    </div>
     <hr />
   </header>
 </template>

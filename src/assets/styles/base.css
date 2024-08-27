@@ -9,3 +9,25 @@
   /* section footers */
   --section-footer-background-color: #96afa1;
 }
+
+section h2 {
+  text-transform: uppercase;
+  font-size: calc(2rem + 1vw);
+  margin-bottom: 5rem;
+}
+section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+section {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 4rem 2rem 6rem 2rem;
+  color: var(--text-color-primary);
+  position: relative;
+}
