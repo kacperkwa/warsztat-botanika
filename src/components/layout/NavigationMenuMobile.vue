@@ -49,7 +49,7 @@ button {
   border: none;
   background: none;
   color: var(--text-color-secondary);
-  font-size: 2rem;
+  font-size: 3rem;
   cursor: pointer;
 }
 </style>

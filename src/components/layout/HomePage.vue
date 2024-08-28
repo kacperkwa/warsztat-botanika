@@ -124,7 +124,7 @@ nav ul li:last-child {
 }
 hr {
   width: 100%;
-  max-width: 1250px;
+  max-width: 1200px;
 }
 .header-content {
   display: flex;

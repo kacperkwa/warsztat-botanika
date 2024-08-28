@@ -1,6 +1,6 @@
 <template>
-  <div class="project-card">
-    <div class="project-header">
+  <div class="project-card" @click="handleClick">
+    <div class="project-header" @click.stop>
       <h3 class="project-location">{{ project.location }}</h3>
       <p class="project-size">{{ project.size }} m<sup>2</sup></p>
     </div>
@@ -8,22 +8,27 @@
       <img :src="getImgSrc(project.id, project.thumbnail)" />
       <div class="overlay"><p>kliknij po więcej</p></div>
     </div>
-    <div class="project-description">
+    <div class="project-description" @click.stop>
       <p>{{ project.description }}</p>
     </div>
   </div>
 </template>
 <script setup>
+import { defineEmits, defineProps } from 'vue'
 const getImgSrc = (id, thumbnail) => {
   const imgSrc = new URL(`../../assets/img/portfolio/${id}/${thumbnail}`, import.meta.url).href
   return imgSrc
 }
-defineProps({
+const props = defineProps({
   project: {
     type: Object,
     required: true
   }
 })
+const emit = defineEmits(['projectClick'])
+const handleClick = () => {
+  emit('projectClick', props.project)
+}
 </script>
 
 <style scoped>
@@ -32,7 +37,6 @@ defineProps({
   flex-direction: column;
   gap: 2rem;
   border-radius: 5px;
-  margin-bottom: 1rem;
   width: 25%;
   min-width: 300px;
   max-height: none;
@@ -53,10 +57,11 @@ defineProps({
 .project-thumbnail {
   cursor: pointer;
   position: relative;
-  overflow: hidden;
 }
 .project-thumbnail img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .overlay {
   position: absolute;
