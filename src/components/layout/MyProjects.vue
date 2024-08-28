@@ -12,7 +12,7 @@
       </div>
     </div>
     <SectionFooter></SectionFooter>
-    <ProjectModal v-if="!isModalOpen" @close="closeModal" :project="selectedProject"></ProjectModal>
+    <ProjectModal v-if="isModalOpen" @close="closeModal" :project="selectedProject"></ProjectModal>
   </section>
 </template>
 
@@ -27,7 +27,7 @@ import { useModalStore } from '@/stores/modal.js'
 const useModal = useModalStore()
 const projects = ref([])
 const isModalOpen = ref(false)
-const selectedProject = ref(projectData[0])
+const selectedProject = ref(null)
 
 const openModal = (project) => {
   selectedProject.value = project

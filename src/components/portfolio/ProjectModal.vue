@@ -8,8 +8,10 @@
           <p>{{ project.size }}<sup>m2</sup></p>
           <!-- <img :src="getImgSrc(project.id, project.thumbnail)" alt="" /> -->
         </div>
-        <div v-for="(image, index) in project.images" :key="index">
-          <img :src="getImgSrc(project.id, image)" alt="" />
+        <div class="test">
+          <div v-for="(image, index) in project.images" :key="index">
+            <img :src="getImgSrc(project.id, image)" alt="" />
+          </div>
         </div>
       </div>
     </div>
@@ -39,9 +41,17 @@ const getImgSrc = (id, image) => {
 }
 </script>
 <style scoped>
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 2rem;
+  max-height: 100%;
+}
 .project-modal img {
   max-width: 100%;
-  max-height: 80vh; /* lub inna wysokość w zależności od potrzeb */
+  height: 150px;
   object-fit: cover;
 }
 .modal-overlay {

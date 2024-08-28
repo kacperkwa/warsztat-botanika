@@ -11,26 +11,26 @@
   {
     "id": 1,
     "location": "Kraków",
-    "thumbnail": "portfolio-4.jpg",
-    "images": ["projekt2-1.jpg", "projekt2-2.jpg"],
+    "thumbnail": "projekt-2-thumbnail.jpg",
+    "images": ["projekt-2-1.jpg", "projekt-2-2.jpg", "projekt-2-3.jpg"],
     "description": "Krótki opis projektu 2.",
     "fullDescription": "Długi opis projektu 1.",
     "size": "100"
   },
   {
     "id": 2,
-    "location": "Łukawiec",
-    "thumbnail": "portfolio-7.jpg",
-    "images": ["projekt2-1.jpg", "projekt2-2.jpg"],
+    "location": "Gdynia",
+    "thumbnail": "projekt-3-thumbnail.jpg",
+    "images": ["projekt-3-1.jpg", "projekt-3-2.jpg", "projekt-3-3.jpg"],
     "description": "Krótki opis projektu 2.",
     "fullDescription": "Długi opis projektu 1.",
     "size": "100"
   },
   {
-    "id": 2,
+    "id": 3,
     "location": "Łukawiec",
-    "thumbnail": "portfolio-7.jpg",
-    "images": ["projekt2-1.jpg", "projekt2-2.jpg"],
+    "thumbnail": "projekt-4-thumbnail.jpg",
+    "images": ["projekt-4-1.jpg", "projekt-4-2.jpg", "projekt-4-3.jpg"],
     "description": "Krótki opis projektu 2.",
     "fullDescription": "Długi opis projektu 1.",
     "size": "100"
