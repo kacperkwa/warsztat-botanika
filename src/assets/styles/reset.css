@@ -1,4 +1,4 @@
-@import './base.css';
+
 * {
   font-family: 'Inter', sans-serif;
 }
@@ -41,4 +41,5 @@ img {
 body {
   font-size: 1.2rem;
 }
+
 

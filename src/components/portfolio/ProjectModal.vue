@@ -8,9 +8,9 @@
           <p>{{ project.size }}<sup>m2</sup></p>
         </div>
         <swiper
-          class="swiper"
+          id="my-swiper"
           :slides-per-view="1"
-          :space-between="5"
+          :space-between="0"
           :modules="modules"
           :navigation="{ clickable: true }"
           :pagination="{ clickable: true }"
@@ -48,6 +48,9 @@ const getImgSrc = (id, image) => {
 }
 </script>
 <style scoped>
+.swiper {
+  width: 70%;
+}
 .close-btn {
   position: absolute;
   top: 1rem;
@@ -83,18 +86,6 @@ const getImgSrc = (id, image) => {
   align-items: center;
   z-index: 1000;
   color: var(--text-color-primary);
-}
-
-.swiper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 60%;
-  position: relative;
-}
-.swiper-slide {
-  width: 100%;
-  height: 100%;
 }
 
 @media (max-width: 800px) {

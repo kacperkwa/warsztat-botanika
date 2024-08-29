@@ -1,0 +1,15 @@
+@import './base.css';
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #fff;
+}
+
+#my-swiper .swiper-pagination-bullet {
+  background-color: #fff;
+  opacity: 1;
+}
+#my-swiper .swiper-pagination-bullet-active {
+  background-color: var(--background-color-secondary);
+  opacity: 1;
+}
