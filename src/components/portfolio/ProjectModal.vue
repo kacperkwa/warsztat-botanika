@@ -6,21 +6,29 @@
         <div class="project-info">
           <h3>{{ project.location }}</h3>
           <p>{{ project.size }}<sup>m2</sup></p>
-          <!-- <img :src="getImgSrc(project.id, project.thumbnail)" alt="" /> -->
         </div>
-        <div class="test">
-          <div v-for="(image, index) in project.images" :key="index">
+        <swiper
+          class="swiper"
+          :slides-per-view="1"
+          :space-between="5"
+          :modules="modules"
+          :navigation="{ clickable: true }"
+          :pagination="{ clickable: true }"
+        >
+          <swiper-slide v-for="(image, index) in project.images" :key="index">
             <img :src="getImgSrc(project.id, image)" alt="" />
-          </div>
-        </div>
+          </swiper-slide>
+        </swiper>
       </div>
     </div>
   </teleport>
 </template>
 <script setup>
 import { defineEmits, defineProps } from 'vue'
-import 'swiper/css'
-
+import { Swiper, SwiperSlide } from 'swiper/vue'
+import { Navigation, Pagination } from 'swiper/modules'
+import 'swiper/css/bundle'
+const modules = [Navigation, Pagination]
 defineProps({
   project: {
     type: Object,
@@ -36,48 +44,10 @@ const closeModal = () => {
 
 const getImgSrc = (id, image) => {
   const imgSrc = new URL(`../../assets/img/portfolio/${id}/${image}`, import.meta.url).href
-  console.log(imgSrc)
   return imgSrc
 }
 </script>
 <style scoped>
-.test {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: start;
-  padding: 2rem;
-  max-height: 100%;
-}
-.project-modal img {
-  max-width: 100%;
-  height: 150px;
-  object-fit: cover;
-}
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.4);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
-}
-
-.project-modal {
-  position: relative;
-  width: 90%;
-  height: 90%;
-  background-color: var(--background-color-primary);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  color: var(--text-color-primary);
-}
 .close-btn {
   position: absolute;
   top: 1rem;
@@ -91,11 +61,51 @@ const getImgSrc = (id, image) => {
 .close-btn i {
   font-size: 3rem;
 }
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.project-modal {
+  position: relative;
+  width: 80%;
+  height: 90%;
+  background-color: var(--background-color-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  color: var(--text-color-primary);
+}
+
+.swiper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  position: relative;
+}
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+}
 
 @media (max-width: 800px) {
   .project-modal {
     width: 100%;
     height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .swiper {
+    width: 100%;
   }
 }
 </style>
