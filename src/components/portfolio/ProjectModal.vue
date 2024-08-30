@@ -84,9 +84,10 @@ const getImgSrc = (id, image) => {
   background-color: var(--background-color-primary);
   height: 90%;
   width: 90%;
-  padding-top: 7rem;
+  padding-top: 5rem;
   overflow-y: auto;
   z-index: 1000;
+  border-radius: 8px;
 }
 .project-modal {
   display: flex;
@@ -118,9 +119,17 @@ const getImgSrc = (id, image) => {
   font-size: calc(1.4rem + 0.5vw);
   text-align: center;
   padding: 0 2rem;
-  width: 70%;
+  width: 55%;
 }
 
+@media (max-width: 1680px) {
+  #my-swiper {
+    width: 70%;
+  }
+  .project-desc {
+    width: 70%;
+  }
+}
 @media (max-width: 1200px) {
   .wrapper {
     width: 100%;
