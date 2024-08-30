@@ -1,24 +1,30 @@
 <template>
   <teleport to="body">
     <div class="modal-overlay">
-      <div class="project-modal">
-        <button class="close-btn" @click="closeModal"><i class="fa-solid fa-xmark"></i></button>
-        <div class="project-info">
-          <h3>{{ project.location }}</h3>
-          <p>{{ project.size }}<sup>m2</sup></p>
+      <div class="wrapper">
+        <div class="project-modal">
+          <button class="close-btn" @click="closeModal"><i class="fa-solid fa-xmark"></i></button>
+          <div class="project-info">
+            <div class="project-header">
+              <h3 class="project-location">{{ project.location }}</h3>
+              <p class="project-size">{{ project.size }}<sup>m2</sup></p>
+            </div>
+            <p class="project-desc">{{ project.fullDescription }}</p>
+          </div>
+          <swiper
+            id="my-swiper"
+            :slides-per-view="1"
+            :space-between="0"
+            :modules="modules"
+            :navigation="{ clickable: true }"
+            :pagination="{ clickable: true }"
+          >
+            <swiper-slide v-for="(image, index) in project.images" :key="index">
+              <img :src="getImgSrc(project.id, image)" alt="" />
+              <!-- <div>slide 1</div> -->
+            </swiper-slide>
+          </swiper>
         </div>
-        <swiper
-          id="my-swiper"
-          :slides-per-view="1"
-          :space-between="0"
-          :modules="modules"
-          :navigation="{ clickable: true }"
-          :pagination="{ clickable: true }"
-        >
-          <swiper-slide v-for="(image, index) in project.images" :key="index">
-            <img :src="getImgSrc(project.id, image)" alt="" />
-          </swiper-slide>
-        </swiper>
       </div>
     </div>
   </teleport>
@@ -48,9 +54,6 @@ const getImgSrc = (id, image) => {
 }
 </script>
 <style scoped>
-.swiper {
-  width: 70%;
-}
 .close-btn {
   position: absolute;
   top: 1rem;
@@ -76,27 +79,61 @@ const getImgSrc = (id, image) => {
   align-items: center;
   z-index: 999;
 }
-.project-modal {
+.wrapper {
   position: relative;
-  width: 80%;
-  height: 90%;
   background-color: var(--background-color-primary);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  height: 90%;
+  width: 90%;
+  padding-top: 7rem;
+  overflow-y: auto;
   z-index: 1000;
-  color: var(--text-color-primary);
+}
+.project-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  min-height: min-content;
+  width: 100%;
+}
+.project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.project-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: calc(1.8rem + 0.5vw);
+}
+.project-header h3,
+.project-header p {
+  font-weight: 700;
+}
+.project-desc {
+  font-size: calc(1.4rem + 0.5vw);
+  text-align: center;
+  padding: 0 2rem;
+  width: 70%;
 }
 
-@media (max-width: 800px) {
-  .project-modal {
+@media (max-width: 1200px) {
+  .wrapper {
     width: 100%;
     height: 100%;
-    flex-direction: column;
-    justify-content: space-around;
   }
-  .swiper {
+  #my-swiper {
     width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper {
+    justify-content: start;
+    gap: 10rem;
   }
 }
 </style>
