@@ -116,7 +116,7 @@ const getImgSrc = (id, image) => {
   font-weight: 700;
 }
 .project-desc {
-  font-size: calc(1.4rem + 0.5vw);
+  font-size: calc(1.4rem + 0.4vw);
   text-align: center;
   padding: 0 2rem;
   width: 55%;
@@ -134,6 +134,7 @@ const getImgSrc = (id, image) => {
   .wrapper {
     width: 100%;
     height: 100%;
+    border-radius: 0;
   }
   #my-swiper {
     width: 100%;
@@ -143,6 +144,9 @@ const getImgSrc = (id, image) => {
   .wrapper {
     justify-content: start;
     gap: 10rem;
+  }
+  .project-desc {
+    width: 100%;
   }
 }
 </style>
