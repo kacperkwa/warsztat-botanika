@@ -1,5 +1,5 @@
 <template>
-  <section id="my-projects">
+  <section id="my-projects" ref="projectsSection">
     <div class="container">
       <h2>moje projekty</h2>
       <div class="projects-container">
@@ -51,7 +51,9 @@ const goToPage = (pageNumber) => {
   if (pageNumber >= 1 && pageNumber <= totalPages.value) {
     currentPage.value = pageNumber
   }
-  projectsSection.value.scrollIntoView({ behavior: 'smooth' })
+  if (projectsSection.value) {
+    projectsSection.value.scrollIntoView({ behavior: 'smooth' })
+  }
 }
 const openModal = (project) => {
   selectedProject.value = project
