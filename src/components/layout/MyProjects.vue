@@ -39,16 +39,19 @@ const selectedProject = ref(null)
 const currentPage = ref(1)
 const itemsPerPage = 6
 const totalPages = computed(() => Math.ceil(projects.value.length / itemsPerPage))
+const projectsSection = ref(null)
 
 const paginatedProjects = computed(() => {
   const startIndex = (currentPage.value - 1) * itemsPerPage
   const endIndex = currentPage.value * itemsPerPage
   return projects.value.slice(startIndex, endIndex)
 })
+
 const goToPage = (pageNumber) => {
   if (pageNumber >= 1 && pageNumber <= totalPages.value) {
     currentPage.value = pageNumber
   }
+  projectsSection.value.scrollIntoView({ behavior: 'smooth' })
 }
 const openModal = (project) => {
   selectedProject.value = project
