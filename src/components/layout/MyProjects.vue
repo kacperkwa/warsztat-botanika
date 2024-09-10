@@ -51,9 +51,11 @@ const goToPage = (pageNumber) => {
   if (pageNumber >= 1 && pageNumber <= totalPages.value) {
     currentPage.value = pageNumber
   }
-  if (projectsSection.value) {
-    projectsSection.value.scrollIntoView({ behavior: 'smooth' })
-  }
+  setTimeout(() => {
+    if (projectsSection.value) {
+      projectsSection.value.scrollIntoView({ behavior: 'smooth' })
+    }
+  }, 100)
 }
 const openModal = (project) => {
   selectedProject.value = project
