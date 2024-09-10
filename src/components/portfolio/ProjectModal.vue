@@ -18,10 +18,10 @@
             :modules="modules"
             :navigation="{ clickable: true }"
             :pagination="{ clickable: true }"
+            :loop="true"
           >
             <swiper-slide v-for="(image, index) in project.images" :key="index">
               <img :src="getImgSrc(project.id, image)" alt="" />
-              <!-- <div>slide 1</div> -->
             </swiper-slide>
           </swiper>
         </div>

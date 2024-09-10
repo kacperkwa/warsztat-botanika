@@ -39,6 +39,7 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
 #aboutme {
   background-color: var(--background-color-secondary);
   color: var(--text-color-secondary);
+  scroll-snap-align: start;
 }
 .content-container {
   display: flex;
