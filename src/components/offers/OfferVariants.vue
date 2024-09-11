@@ -1,0 +1,119 @@
+<template>
+  <div class="variants-container">
+    <h3>warianty oferty</h3>
+    <div class="variants-content">
+      <div class="basic-variant">
+        <h4>wariant podstawowy</h4>
+        <ol>
+          <li>
+            dwie koncepcje ogrodu (rzut 2D) z zaplanowaną komunikacją oraz wskazanie lokalizacji
+            elementów rozmieszczanych na działce
+          </li>
+          <li>model koncepcyjny 3D wybranej wersji</li>
+          <li>
+            lansze z podziałem na:
+            <ol>
+              <li>
+                proponowane gatunki roślin - katalog ze zdjęciami + moodboard z kompozycjami, bez
+                planu nasadzeń
+              </li>
+              <li>nawierzchnie - sugerowana kolorystyka, zestawienie ilościowe, wymiarowanie</li>
+              <li>
+                koncepcja ogrodzenia - przebieg ogrodzenia, lokalizacja furtki, bramy, wiaty
+                śmietnikowej itp.
+              </li>
+              <li>schemat rozmieszczenia punktów świetlnych - określenie rodzaju oprawy</li>
+              <li>plansza z wymiarowaniem</li>
+              <li>
+                nawadnianie* - zebranie danych do projektu nawadniania i przygotowanie planszy z
+                instalacjami, przekazanie materiałów do zaprzyjaźnionej firmy
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </div>
+      <div class="separator"></div>
+      <div class="extended-variant">
+        <h4>wariant rozszerzony</h4>
+        <ol>
+          <li>
+            dwie koncepcje ogrodu (rzut 2D) z zaplanowaną komunikacją oraz wskazanie lokalizacji
+            elementów rozmieszczanych na działce
+          </li>
+          <li>model koncepcyjny 3D dwóch wersji ogrodu</li>
+          <li>
+            plansze i zestawienia ilościowe z podziałem na:
+            <ol>
+              <li>
+                rośliny – katalog ze zdjęciami + moodboard z kompozycjami, plan z rozmieszczenie
+                roślin, zliczone sztuki, podręczna lista roślin do zakupu w szkółce
+              </li>
+              <li>nawierzchnie - producent, model, kolor, wymiarowanie</li>
+              <li>
+                koncepcja ogrodzenia - przebieg ogrodzenia, widok frontowy, materiał, kolor,
+                lokalizacja furtki, bramy, wiaty śmietnikowej, itp.
+              </li>
+              <li>
+                schemat rozmieszczenia punktów świetlnych - dobór konkretnej oprawy, sugerowany
+                podział na obwody
+              </li>
+              <li>plansza z wymiarowaniem</li>
+              <li>
+                nawadnianie* - zebranie danych do projektu nawadniania i przygotowanie planszy z
+                instalacjami, przekazanie materiałów do zaprzyjaźnionej firmy
+              </li>
+            </ol>
+          </li>
+          <li>wizualizacje 3D</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</template>
+<style scoped>
+.variants-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 100vh;
+}
+.variants-content {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  padding: 2rem;
+  position: relative;
+}
+h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-weight: 500;
+}
+
+.separator {
+  width: 1px;
+  background-color: black;
+  margin-bottom: -20px;
+  margin-top: -20px;
+}
+
+.basic-variant,
+.extended-variant {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  width: 45%;
+  font-size: 2rem;
+}
+
+.basic-variant ol,
+.extended-variant ol {
+  list-style-type: decimal;
+  padding-left: 2rem;
+}
+.basic-variant li ol,
+.extended-variant li ol {
+  list-style-type: disc;
+}
+</style>

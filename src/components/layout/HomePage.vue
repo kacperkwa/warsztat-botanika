@@ -8,7 +8,7 @@
           <ul>
             <li><a href="#aboutme">kim jestem</a></li>
             <li><a href="#my-projects">projekty</a></li>
-            <li><a href="">oferta</a></li>
+            <li><a href="#offer">oferta</a></li>
             <li><a href="">pierwszy krok</a></li>
           </ul>
         </nav>
