@@ -7,7 +7,7 @@
           <div class="project-info">
             <div class="project-header">
               <h3 class="project-location">{{ project.location }}</h3>
-              <p class="project-size">{{ project.size }}<sup>m2</sup></p>
+              <p class="project-size">{{ project.size }}m<sup>2</sup></p>
             </div>
             <p class="project-desc">{{ project.fullDescription }}</p>
           </div>
@@ -120,6 +120,9 @@ const getImgSrc = (id, image) => {
   text-align: center;
   padding: 0 2rem;
   width: 55%;
+}
+sup{
+  font-size: 1.6rem;
 }
 
 @media (max-width: 1680px) {

@@ -6,15 +6,30 @@
         <div class="map-container">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2565.546905586674!2d20.05764061263995!3d49.98235512083753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47164162e86d0655%3A0xefdeb323e2dc59c9!2sRynek%20G%C3%B3rny!5e0!3m2!1spl!2spl!4v1725021755982!5m2!1spl!2spl"
-            width="350"
-            height="300"
-            allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
         <div class="contact-container">
-         
+          <p>po szczegóły oferty zapraszam do kontaktu:</p>
+          <ul class="contact-list">
+            <li class="contant-mail">
+              <i class="fa-solid fa-envelope"></i>
+              <p>warsztatbotanika@gmail.com</p>
+            </li>
+            <li class="contact-phone">
+              <i class="fa-solid fa-phone"></i>
+              <p>+48 532 808 858</p>
+            </li>
+            <li class="contact-fb">
+              <i class="fa-brands fa-facebook-f"></i
+              ><a href="https://www.facebook.com" target="_blank">facebook/warsztabotanika</a>
+            </li>
+            <li class="ccontact-location">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Wieliczka i Rzeszów, małopolska i podkarpacie, cała Polska - zdalnie</p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -27,11 +42,54 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
 <style scoped>
 #contact {
   background-color: var(--background-color-secondary);
-  padding: 2rem 0;
   color: var(--text-color-secondary);
+}
+
+.content-container {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  widows: 100%;
+}
+.contact-container {
+  width: 30%;
+}
+.contact-container > p {
+  font-size: calc(1.5rem + 0.5vw);
+  text-transform: uppercase;
+  padding-bottom: 5rem;
+}
+li {
+  font-size: calc(1.5rem + 0.5vw);
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+li a {
+  text-decoration: none;
+  color: var(--text-color-secondary);
+}
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.map-container {
+  width: 100%;
 }
 iframe {
   border: 10px solid rgba(0, 0, 0, 0.05);
   border-radius: 8px;
+  width: 100%;
+  height: 500px;
+}
+@media (max-width: 1050px) {
+  .content-container {
+    flex-direction: column-reverse;
+  }
+  .contact-container {
+    width: 100%;
+  }
 }
 </style>
