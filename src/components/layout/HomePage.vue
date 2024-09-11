@@ -12,7 +12,7 @@
             <li><a href="">pierwszy krok</a></li>
           </ul>
         </nav>
-        <a href="#kontakt">kontakt</a>
+        <a href="#contact">kontakt</a>
       </div>
       <hr />
     </div>
