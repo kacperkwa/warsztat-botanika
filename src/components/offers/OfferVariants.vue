@@ -40,7 +40,7 @@
             dwie koncepcje ogrodu (rzut 2D) z zaplanowaną komunikacją oraz wskazanie lokalizacji
             elementów rozmieszczanych na działce
           </li>
-          <li>model koncepcyjny 3D dwóch wersji ogrodu</li>
+          <li>model koncepcyjny 3D <em>dwóch</em> wersji ogrodu</li>
           <li>
             plansze i zestawienia ilościowe z podziałem na:
             <ol>
@@ -68,8 +68,12 @@
         </ol>
       </div>
     </div>
+    <SectionFooter />
   </div>
 </template>
+<script setup>
+import SectionFooter from '@/components/UI/SectionFooter.vue'
+</script>
 <style scoped>
 .variants-container {
   display: flex;
@@ -85,15 +89,24 @@
   position: relative;
 }
 h4 {
-  font-size: 2rem;
+  font-size: calc(1.5rem + 0.4vw);
   text-transform: uppercase;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.4rem;
   font-weight: 500;
+}
+h3 {
+  font-size: calc(1.2rem + 0.2vw);
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-weight: 500;
+  max-width: max-content;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #9e9d9d;
 }
 
 .separator {
   width: 1px;
-  background-color: black;
+  background-color: #9e9d9d;
   margin-bottom: -20px;
   margin-top: -20px;
 }
@@ -102,9 +115,9 @@ h4 {
 .extended-variant {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 10rem;
   width: 45%;
-  font-size: 2rem;
+  font-size: calc(1.2rem + 0.5vw);
 }
 
 .basic-variant ol,
@@ -115,5 +128,24 @@ h4 {
 .basic-variant li ol,
 .extended-variant li ol {
   list-style-type: disc;
+}
+@media (max-width: 968px) {
+  .variants-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 6rem;
+  }
+  .basic-variant,
+  .extended-variant {
+    width: 100%;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .separator {
+    display: none;
+  }
 }
 </style>
