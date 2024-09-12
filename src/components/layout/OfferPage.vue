@@ -3,11 +3,13 @@
     <div class="container">
       <h2>OFERTA</h2>
       <OfferVariants></OfferVariants>
+      <OfferPrices></OfferPrices>
     </div>
   </section>
 </template>
 <script setup>
 import OfferVariants from '@/components/offers/OfferVariants.vue'
+import OfferPrices from '@/components/offers/OfferPrices.vue'
 </script>
 <style scoped>
 #offer {

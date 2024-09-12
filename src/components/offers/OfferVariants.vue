@@ -1,5 +1,5 @@
 <template>
-  <div class="variants-container">
+  <div class="offer-container">
     <h3>warianty oferty</h3>
     <div class="variants-content">
       <div class="basic-variant">
@@ -80,12 +80,13 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
   flex-direction: column;
   justify-content: space-evenly;
   min-height: 100vh;
+  width: 100%;
 }
 .variants-content {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  padding: 2rem;
+  padding: 0 2rem;
   position: relative;
 }
 h4 {
@@ -117,7 +118,7 @@ h3 {
   flex-direction: column;
   gap: 10rem;
   width: 45%;
-  font-size: calc(1.2rem + 0.5vw);
+  font-size: calc(1.2rem + 0.3vw);
 }
 
 .basic-variant ol,
