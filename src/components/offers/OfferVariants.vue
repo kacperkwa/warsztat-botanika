@@ -11,7 +11,7 @@
           </li>
           <li>model koncepcyjny 3D wybranej wersji</li>
           <li>
-            lansze z podziałem na:
+            plansze z podziałem na:
             <ol>
               <li>
                 proponowane gatunki roślin - katalog ze zdjęciami + moodboard z kompozycjami, bez
