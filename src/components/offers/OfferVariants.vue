@@ -129,6 +129,9 @@ h3 {
 .extended-variant li ol {
   list-style-type: disc;
 }
+em {
+  font-weight: bold;
+}
 @media (max-width: 968px) {
   .variants-content {
     flex-direction: column;
