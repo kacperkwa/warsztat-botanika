@@ -68,11 +68,9 @@
         </ol>
       </div>
     </div>
-    
   </section>
 </template>
-<script setup>
-</script>
+<script setup></script>
 <style scoped>
 .variants-container {
   display: flex;
@@ -85,7 +83,6 @@
   display: flex;
   justify-content: center;
   gap: 5rem;
-  padding: 0 2rem;
   position: relative;
 }
 h4 {
