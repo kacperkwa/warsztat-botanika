@@ -1,5 +1,5 @@
 <template>
-  <div class="offer-container">
+  <section class="offer-container">
     <h3>warianty oferty</h3>
     <div class="variants-content">
       <div class="basic-variant">
@@ -68,11 +68,10 @@
         </ol>
       </div>
     </div>
-    <SectionFooter />
-  </div>
+    
+  </section>
 </template>
 <script setup>
-import SectionFooter from '@/components/UI/SectionFooter.vue'
 </script>
 <style scoped>
 .variants-container {

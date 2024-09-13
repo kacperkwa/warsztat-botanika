@@ -1,5 +1,5 @@
 <template>
-  <div class="offer-container">
+  <section class="offer-container">
     <h3>cennik</h3>
     <div class="prices-table">
       <div class="first-row-title div1"><span>powierzchnia opracowania</span></div>
@@ -107,7 +107,7 @@
         </ul>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 <style scoped>
 .prices-container {
@@ -147,7 +147,7 @@
 .fifth-row-item {
   background-color: var(--table-cell-color-secondary);
   color: #807c73;
-  font-size: calc(0.8rem + 0.4vw);
+  font-size: calc(0.8rem + 0.4vw); 
 }
 .second-row-item,
 .fourth-row-item {
