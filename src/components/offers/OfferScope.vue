@@ -1,5 +1,5 @@
 <template>
-  <div class="offer-container">
+  <section class="offer-container">
     <h3>zakres gotowego projektu w wariancie rozszerzonym</h3>
     <div class="content-container">
       <div class="offer-item">
@@ -60,7 +60,7 @@
         </p>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 <style scoped>
 .content-container {

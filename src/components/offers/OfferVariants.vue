@@ -72,6 +72,9 @@
 </template>
 <script setup></script>
 <style scoped>
+section.offer-container {
+  padding-top: 2rem;
+}
 .variants-container {
   display: flex;
   flex-direction: column;
