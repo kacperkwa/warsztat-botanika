@@ -70,7 +70,7 @@
           </li>
           <li>
             <p>
-              proponowane gatunki roślin (katalog w&nbsp;formie tabeli ze zdjęciami + moodboard& z&nbsp;kompozycjami)
+              proponowane gatunki roślin (katalog w&nbsp;formie tabeli ze zdjęciami + moodboard z&nbsp;kompozycjami)
             </p>
           </li>
           <li>
