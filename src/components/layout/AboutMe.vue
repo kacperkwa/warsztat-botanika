@@ -10,14 +10,14 @@
               małopolski.</span
             >
             <span
-              >Teraz zakładam własną firmę. Style w jakich najczęściej projektuję to
+              >Teraz zakładam własną firmę. Style w&nbsp;jakich najczęściej projektuję to
               nowoczesny/modernistyczny, leśny, naturalistyczny.</span
             >
             <span>
-              Priorytetem w moich projektach jest stworzenie przestrzeni do wypoczynku i realne
-              możliwości wykonania, przy zachowaniu estetyki. /z dbałością o estetykę.</span
+              Priorytetem w moich projektach jest stworzenie przestrzeni do wypoczynku i&nbsp;realne
+              możliwości wykonania, przy zachowaniu estetyki. /z&nbsp;dbałością o estetykę.</span
             >
-            <span>Lubię kolor CZARNY, połączenie drewna i betonu, oraz tajemnicze zakątki..</span>
+            <span>Lubię kolor CZARNY, połączenie drewna i&nbsp;betonu, oraz tajemnicze zakątki..</span>
           </p>
         </div>
         <div class="image-container">

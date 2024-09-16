@@ -4,18 +4,18 @@
     <div class="prices-table">
       <div class="first-row-title div1"><span>powierzchnia opracowania</span></div>
       <div class="first-row-item div2">
-        <span>do 200 m<sup>2</sup></span>
+        <span>do 200&nbsp;m<sup>2</sup></span>
       </div>
       <div class="first-row-item div3">
-        <span>201 - 800 m<sup>2</sup></span>
+        <span>201 - 800&nbsp;m<sup>2</sup></span>
       </div>
       <div class="first-row-item div4">
-        <span>801 - 1500 m<sup>2</sup></span>
+        <span>801 - 1500&nbsp;m<sup>2</sup></span>
       </div>
       <div class="second-row-title div5">WARIANT PODSTAWOWY</div>
-      <div class="second-row-item div6">700 - 2 000 zł</div>
-      <div class="second-row-item div7">2 000 - 4 000 zł</div>
-      <div class="second-row-item div8">4 000 - 6 000 zł</div>
+      <div class="second-row-item div6">700 - 2&nbsp;000 zł</div>
+      <div class="second-row-item div7">2 000 - 4&nbsp;000 zł</div>
+      <div class="second-row-item div8">4 000 - 6&nbsp;000 zł</div>
       <div class="third-row-item div9">
         <ul>
           <li>
@@ -23,8 +23,8 @@
           </li>
           <li>
             <p>
-              dwie koncepcje ogrodu (rzut 2D) z zaplanowaną komunikacją oraz wskazanie lokalizacji
-              elementów rozmieszczanych na działce
+              dwie koncepcje ogrodu (rzut 2D) z&nbsp;zaplanowaną komunikacją oraz wskazanie
+              lokalizacji elementów rozmieszczanych na działce
             </p>
           </li>
           <li>
@@ -32,8 +32,8 @@
           </li>
           <li>
             <p>
-              proponowane gatunki roślin (katalog w formie tabeli ze zdjęciami + moodboard z
-              kompozycjami)
+              proponowane gatunki roślin (katalog w formie tabeli ze zdjęciami + moodboard
+              z&nbsp;kompozycjami)
             </p>
           </li>
           <li>
@@ -49,14 +49,14 @@
             <p>schemat rozmieszczenia punktów świetlnych (określenie rodzaju oprawy)</p>
           </li>
           <li>
-            <p>plansza z wymiarowaniem</p>
+            <p>plansza z&nbsp;wymiarowaniem</p>
           </li>
         </ul>
       </div>
       <div class="fourth-row-title div10">WARIANT ROZSZERZONY</div>
-      <div class="fourth-row-item div11">1 400 - 4 000 zł</div>
-      <div class="fourth-row-item div12">4 000 - 8 000 zł</div>
-      <div class="fourth-row-item div13">8 000 - 15 000 zł</div>
+      <div class="fourth-row-item div11">1 400 - 4&nbsp;000 zł</div>
+      <div class="fourth-row-item div12">4 000 - 8&nbsp;000 zł</div>
+      <div class="fourth-row-item div13">8 000 - 15&nbsp;000 zł</div>
       <div class="fifth-row-item div14">
         <ul>
           <li>
@@ -64,19 +64,18 @@
           </li>
           <li>
             <p>
-              model koncepcyjny 3D dwóch wersji ogrodu z zaplanowaną komunikacją oraz wskazanie
+              model koncepcyjny 3D dwóch wersji ogrodu z&nbsp;zaplanowaną komunikacją oraz wskazanie
               lokalizacji elementów rozmieszczanych na działce
             </p>
           </li>
           <li>
             <p>
-              proponowane gatunki roślin (katalog w formie tabeli ze zdjęciami + moodboard z
-              kompozycjami)
+              proponowane gatunki roślin (katalog w&nbsp;formie tabeli ze zdjęciami + moodboard& z&nbsp;kompozycjami)
             </p>
           </li>
           <li>
             <p>
-              rozmieszczenie roślin (plansza z rozmieszczeniem, lista roślin z podaniem sztuk do
+              rozmieszczenie roślin (plansza z&nbsp;rozmieszczeniem, lista roślin z&nbsp;podaniem sztuk do
               zakupu)
             </p>
           </li>
@@ -96,7 +95,7 @@
             </p>
           </li>
           <li>
-            <p>plansza z wymiarowaniem</p>
+            <p>plansza z&nbsp;wymiarowaniem</p>
           </li>
           <li>
             <p>nawadnianie</p>
@@ -147,7 +146,7 @@
 .fifth-row-item {
   background-color: var(--table-cell-color-secondary);
   color: #807c73;
-  font-size: calc(0.8rem + 0.4vw); 
+  font-size: calc(0.8rem + 0.4vw);
 }
 .second-row-item,
 .fourth-row-item {

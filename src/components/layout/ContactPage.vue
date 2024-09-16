@@ -27,7 +27,7 @@
             </li>
             <li class="ccontact-location">
               <i class="fa-solid fa-location-dot"></i>
-              <p>Wieliczka i Rzeszów, małopolska i podkarpacie, cała Polska - zdalnie</p>
+              <p>Wieliczka i&nbsp;Rzeszów, małopolska i&nbsp;podkarpacie, cała Polska - zdalnie</p>
             </li>
           </ul>
         </div>

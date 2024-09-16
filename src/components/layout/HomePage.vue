@@ -105,6 +105,7 @@ nav ul li:last-child {
   text-transform: uppercase;
   padding: 1rem;
 }
+
 .header-top h1 {
   font-size: 1.6rem;
   font-weight: bold;
@@ -156,11 +157,15 @@ hr {
   object-fit: contain;
 }
 .header-text-container {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+}
+.header-text-container h2{
+  text-transform: uppercase;
+  font-size: calc(1.5rem + 1vw);;
 }
 .header-image-container {
   display: flex;

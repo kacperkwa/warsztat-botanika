@@ -6,16 +6,16 @@
         <h4>wariant podstawowy</h4>
         <ol>
           <li>
-            dwie koncepcje ogrodu (rzut 2D) z zaplanowaną komunikacją oraz wskazanie lokalizacji
-            elementów rozmieszczanych na działce
+            dwie koncepcje ogrodu (rzut 2D) z&nbsp;zaplanowaną komunikacją oraz wskazanie
+            lokalizacji elementów rozmieszczanych na działce
           </li>
           <li>model koncepcyjny 3D wybranej wersji</li>
           <li>
-            plansze z podziałem na:
+            plansze z&nbsp;podziałem na:
             <ol>
               <li>
-                proponowane gatunki roślin - katalog ze zdjęciami + moodboard z kompozycjami, bez
-                planu nasadzeń
+                proponowane gatunki roślin - katalog ze zdjęciami + moodboard z&nbsp;kompozycjami,
+                bez planu nasadzeń
               </li>
               <li>nawierzchnie - sugerowana kolorystyka, zestawienie ilościowe, wymiarowanie</li>
               <li>
@@ -23,10 +23,10 @@
                 śmietnikowej itp.
               </li>
               <li>schemat rozmieszczenia punktów świetlnych - określenie rodzaju oprawy</li>
-              <li>plansza z wymiarowaniem</li>
+              <li>plansza z&nbsp;wymiarowaniem</li>
               <li>
-                nawadnianie* - zebranie danych do projektu nawadniania i przygotowanie planszy z
-                instalacjami, przekazanie materiałów do zaprzyjaźnionej firmy
+                nawadnianie* - zebranie danych do projektu nawadniania i&nbsp;przygotowanie planszy
+                z&nbsp;instalacjami, przekazanie materiałów do zaprzyjaźnionej firmy
               </li>
             </ol>
           </li>
@@ -37,16 +37,17 @@
         <h4>wariant rozszerzony</h4>
         <ol>
           <li>
-            dwie koncepcje ogrodu (rzut 2D) z zaplanowaną komunikacją oraz wskazanie lokalizacji
-            elementów rozmieszczanych na działce
+            dwie koncepcje ogrodu (rzut 2D) z&nbsp;zaplanowaną komunikacją oraz wskazanie
+            lokalizacji elementów rozmieszczanych na działce
           </li>
           <li>model koncepcyjny 3D <em>dwóch</em> wersji ogrodu</li>
           <li>
-            plansze i zestawienia ilościowe z podziałem na:
+            plansze i&nbsp;zestawienia ilościowe z&nbsp;podziałem na:
             <ol>
               <li>
-                rośliny – katalog ze zdjęciami + moodboard z kompozycjami, plan z rozmieszczenie
-                roślin, zliczone sztuki, podręczna lista roślin do zakupu w szkółce
+                rośliny – katalog ze zdjęciami + moodboard z kompozycjami, plan
+                z&nbsp;rozmieszczenie roślin, zliczone sztuki, podręczna lista roślin do zakupu w
+                szkółce
               </li>
               <li>nawierzchnie - producent, model, kolor, wymiarowanie</li>
               <li>
@@ -57,10 +58,10 @@
                 schemat rozmieszczenia punktów świetlnych - dobór konkretnej oprawy, sugerowany
                 podział na obwody
               </li>
-              <li>plansza z wymiarowaniem</li>
+              <li>plansza z&nbsp;wymiarowaniem</li>
               <li>
-                nawadnianie* - zebranie danych do projektu nawadniania i przygotowanie planszy z
-                instalacjami, przekazanie materiałów do zaprzyjaźnionej firmy
+                nawadnianie* - zebranie danych do projektu nawadniania i&nbsp;przygotowanie planszy
+                z&nbsp;instalacjami, przekazanie materiałów do zaprzyjaźnionej firmy
               </li>
             </ol>
           </li>
@@ -89,7 +90,7 @@ section.offer-container {
   position: relative;
 }
 h4 {
-  font-size: calc(1.5rem + 0.4vw);
+  font-size: calc(1.2rem + 0.2vw);
   text-transform: uppercase;
   letter-spacing: 0.4rem;
   font-weight: 500;
@@ -115,7 +116,7 @@ h3 {
 .extended-variant {
   display: flex;
   flex-direction: column;
-  gap: 10rem;
+  gap: 5rem;
   width: 45%;
   font-size: calc(1.2rem + 0.3vw);
 }
