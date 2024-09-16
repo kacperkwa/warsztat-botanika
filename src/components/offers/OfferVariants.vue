@@ -24,10 +24,6 @@
               </li>
               <li>schemat rozmieszczenia punktów świetlnych - określenie rodzaju oprawy</li>
               <li>plansza z&nbsp;wymiarowaniem</li>
-              <li>
-                nawadnianie* - zebranie danych do projektu nawadniania i&nbsp;przygotowanie planszy
-                z&nbsp;instalacjami, przekazanie materiałów do zaprzyjaźnionej firmy
-              </li>
             </ol>
           </li>
         </ol>
@@ -59,10 +55,7 @@
                 podział na obwody
               </li>
               <li>plansza z&nbsp;wymiarowaniem</li>
-              <li>
-                nawadnianie* - zebranie danych do projektu nawadniania i&nbsp;przygotowanie planszy
-                z&nbsp;instalacjami, przekazanie materiałów do zaprzyjaźnionej firmy
-              </li>
+              <li>nawadnianie</li>
             </ol>
           </li>
           <li>wizualizacje 3D</li>

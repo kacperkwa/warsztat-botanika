@@ -55,7 +55,7 @@
         </p>
         <p class="extra-info">
           *Wykonywany przez zaprzyjaźnioną firmę na podstawie przygotowanych rysunków i&nbsp;zebranych
-          informacji dotyczących nawadniania. (osobna płatność za projekt)
+          informacji dotyczących nawadniania.
         </p>
       </div>
     </div>
