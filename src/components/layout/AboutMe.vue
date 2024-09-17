@@ -6,26 +6,26 @@
         <div class="text-container">
           <p>
             <span
-              >Przez 4 lata pracowałam w biurze projektowym działającym głównie na terenie
-              małopolski.</span
+              >Całe dzieciństwo spędziłam w przekonaniu, że każde drzewo z igłami to choinka, a
+              teraz choinkę ubieram tylko na Boże Narodzenie. Po ukończeniu studiów magisterskich z
+              tytułem architekta krajobrazu, przez 4 lata pracowałam w biurze projektowym w
+              Krakowie, działającym głównie na terenie województwa małopolskiego.<br />
+              Obecnie poświęcam się rozwinięciu własnej firmy i tworzeniu nowych, ciekawych
+              projektów.</span
             >
             <span
-              >Teraz zakładam własną firmę. Style w&nbsp;jakich najczęściej projektuję to
-              nowoczesny/modernistyczny, leśny, naturalistyczny.</span
+              >Priorytetem w mojej pracy architekta krajobrazu jest stworzenie przestrzeni do
+              wypoczynku i realne możliwości wykonania, ze szczególną dbałością o estetykę.<br />
+              Zamiana niezagospodarowanego lub nieestetycznego otoczenia i stworzenie ogrodu, w
+              którym czujemy się dobrze to mój cel. Bardzo lubię to co robię.</span
             >
-            <span>
-              Priorytetem w moich projektach jest stworzenie przestrzeni do wypoczynku i&nbsp;realne
-              możliwości wykonania, przy zachowaniu estetyki. /z&nbsp;dbałością o estetykę.</span
+            <span
+              >Style w jakich najczęściej projektuję to nowoczesny minimalistyczny, leśny,
+              naturalistyczny.<br />
+              Lubię ogrody biało-zielone, kolor czarny, połączenie drewna i betonu, oraz tajemnicze
+              zakątki w ogrodzie..</span
             >
-            <span>Lubię kolor CZARNY, połączenie drewna i&nbsp;betonu, oraz tajemnicze zakątki..</span>
           </p>
-        </div>
-        <div class="image-container">
-          <img
-            class="aboutme-img"
-            src="../../assets/img/aboutme-image.webp"
-            alt="About me image,"
-          />
         </div>
       </div>
     </div>
@@ -43,20 +43,21 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
 }
 .content-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
 }
 .text-container {
   display: flex;
-  max-width: 40%;
+  max-width: 70%;
 }
 .text-container p {
   display: flex;
   flex-direction: column;
   gap: 4rem;
   font-size: calc(1rem + 0.5vw);
+  letter-spacing: 0.2rem;
 }
 .image-container {
   display: flex;

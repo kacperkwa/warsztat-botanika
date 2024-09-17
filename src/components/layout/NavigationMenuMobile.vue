@@ -4,7 +4,7 @@
     <ul>
       <li><a href="#aboutme" @click="closeMenu">kim jestem</a></li>
       <li><a href="#my-projects" @click="closeMenu">projekty</a></li>
-      <li><a href="" @click="closeMenu">oferta</a></li>
+      <li><a href="#offer" @click="closeMenu">oferta</a></li>
       <li><a href="" @click="closeMenu">pierwszy krok</a></li>
     </ul>
   </nav>

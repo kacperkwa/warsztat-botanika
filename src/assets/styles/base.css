@@ -25,7 +25,7 @@ section h2 {
 section .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   width: 100%;
   max-width: 1200px;
@@ -53,7 +53,7 @@ section.offer-container {
   font-size: calc(1.2rem + 0.2vw);
   text-transform: uppercase;
   letter-spacing: 0.4rem;
-  font-weight: 200;
+  font-weight: 300;
   max-width: max-content;
   padding-bottom: 1rem;
   border-bottom: 1px solid #9e9d9d;
