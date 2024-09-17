@@ -7,7 +7,7 @@
           <p>
             <span
               >Całe dzieciństwo spędziłam w&nbsp;przekonaniu, że&nbsp;każde drzewo z&nbsp;igłami
-              to&nbsp;choinka, a&nbsp;teraz choinkę ubieram tylko na&nbsp;Boże Narodzenie.
+              to&nbsp;choinka, a&nbsp;teraz choinkę ubieram tylko na&nbsp;Boże&nbsp;Narodzenie.
               Po&nbsp;ukończeniu studiów magisterskich z&nbsp;tytułem architekta krajobrazu, przez
               4&nbsp;lata pracowałam w&nbsp;biurze projektowym w&nbsp;Krakowie, działającym głównie
               na&nbsp;terenie województwa małopolskiego.<br />
