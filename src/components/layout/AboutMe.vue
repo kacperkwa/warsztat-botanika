@@ -6,24 +6,27 @@
         <div class="text-container">
           <p>
             <span
-              >Całe dzieciństwo spędziłam w przekonaniu, że każde drzewo z igłami to choinka, a
-              teraz choinkę ubieram tylko na Boże Narodzenie. Po ukończeniu studiów magisterskich z
-              tytułem architekta krajobrazu, przez 4 lata pracowałam w biurze projektowym w
-              Krakowie, działającym głównie na terenie województwa małopolskiego.<br />
-              Obecnie poświęcam się rozwinięciu własnej firmy i tworzeniu nowych, ciekawych
+              >Całe dzieciństwo spędziłam w&nbsp;przekonaniu, że&nbsp;każde drzewo z&nbsp;igłami
+              to&nbsp;choinka, a&nbsp;teraz choinkę ubieram tylko na&nbsp;Boże Narodzenie.
+              Po&nbsp;ukończeniu studiów magisterskich z&nbsp;tytułem architekta krajobrazu, przez
+              4&nbsp;lata pracowałam w&nbsp;biurze projektowym w&nbsp;Krakowie, działającym głównie
+              na&nbsp;terenie województwa małopolskiego.<br />
+              Obecnie poświęcam się rozwinięciu własnej firmy i&nbsp;tworzeniu nowych, ciekawych
               projektów.</span
             >
             <span
-              >Priorytetem w mojej pracy architekta krajobrazu jest stworzenie przestrzeni do
-              wypoczynku i realne możliwości wykonania, ze szczególną dbałością o estetykę.<br />
-              Zamiana niezagospodarowanego lub nieestetycznego otoczenia i stworzenie ogrodu, w
-              którym czujemy się dobrze to mój cel. Bardzo lubię to co robię.</span
+              >Priorytetem w&nbsp;mojej pracy architekta krajobrazu jest stworzenie przestrzeni
+              do&nbsp;wypoczynku i&nbsp;realne możliwości wykonania, ze&nbsp;szczególną dbałością
+              o&nbsp;estetykę.<br />
+              Zamiana niezagospodarowanego lub&nbsp;nieestetycznego otoczenia i&nbsp;stworzenie
+              ogrodu, w&nbsp;którym czujemy się dobrze to&nbsp;mój cel. Bardzo lubię
+              to&nbsp;co&nbsp;robię.</span
             >
             <span
-              >Style w jakich najczęściej projektuję to nowoczesny minimalistyczny, leśny,
+              >Style w&nbsp;jakich najczęściej projektuję to&nbsp;nowoczesny minimalistyczny, leśny,
               naturalistyczny.<br />
-              Lubię ogrody biało-zielone, kolor czarny, połączenie drewna i betonu, oraz tajemnicze
-              zakątki w ogrodzie..</span
+              Lubię ogrody biało-zielone, kolor czarny, połączenie drewna i&nbsp;betonu,
+              oraz&nbsp;tajemnicze zakątki w&nbsp;ogrodzie..</span
             >
           </p>
         </div>
