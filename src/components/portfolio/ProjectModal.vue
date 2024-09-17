@@ -114,11 +114,11 @@ const getImgSrc = (id, image) => {
 .project-header h3,
 .project-header p {
   font-weight: 300;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.2rem;
 }
 .project-desc {
   font-size: calc(1.4rem + 0.2vw);
-  text-align: justify;
+  text-align: center;
   padding: 0 2rem;
   width: 55%;
   letter-spacing: 0.2rem;
