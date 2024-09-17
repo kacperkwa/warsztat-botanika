@@ -147,13 +147,13 @@ hr {
   font-size: calc(1.5rem + 2vw);
   letter-spacing: 0.5rem;
   font-weight: 300;
-  width: 50%;
+  width: 90%;
 }
 .header-text p {
   font-size: calc(1.2rem + 1vw);
   letter-spacing: 0.4rem;
   font-weight: 200;
-  width: 50%;
+  width: 90%;
 }
 .header-text .logo {
   width: 30vw;
