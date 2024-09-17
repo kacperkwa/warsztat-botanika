@@ -58,6 +58,7 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
   gap: 4rem;
   font-size: calc(1rem + 0.5vw);
   letter-spacing: 0.2rem;
+  text-align: justify;
 }
 .image-container {
   display: flex;
