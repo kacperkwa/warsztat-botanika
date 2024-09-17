@@ -49,21 +49,28 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
   display: flex;
   gap: 4rem;
   justify-content: center;
-  widows: 100%;
+  width: 100%;
 }
 .contact-container {
-  width: 30%;
+  width: 100%;
 }
 .contact-container > p {
-  font-size: calc(1.5rem + 0.5vw);
+  font-size: calc(1.4em + 0.4vw);
   text-transform: uppercase;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
 }
 li {
-  font-size: calc(1.5rem + 0.5vw);
+  font-size: calc(1.4rem + 0.3vw);
   display: flex;
   gap: 1.5rem;
   align-items: center;
+  letter-spacing: 0.2rem;
+}
+li p,
+li a {
+  font-weight: 200;
 }
 
 li a {
