@@ -1,83 +1,115 @@
 [
   {
     "id": 0,
-    "location": "Warszawa",
-    "thumbnail": "projekt-1-thumbnail.jpg",
-    "images": ["projekt-1-1.jpg", "projekt-1-2.jpg", "projekt-1-3.jpg"],
+    "location": "Kraków",
+    "thumbnail": "krakow-3.jpg",
+    "images": [
+      "krakow-1.jpg",
+      "krakow-2.jpg",
+      "krakow-3.jpg",
+      "krakow-4.jpg",
+      "krakow-5.jpg",
+      "krakow-6.jpg",
+      "krakow-7.jpg",
+      "krakow-8.jpg"
+    ],
     "description": "Krótki opis projektu 1.",
-    "fullDescription": "Suspendisse potenti. Curabitur ullamcorper congue aliquam. Cras libero enim, pretium vitae enim pharetra, pretium luctus enim. Nam rhoncus massa lorem, sed tempus turpis mollis ac. Nam id neque enim. Quisque vitae ante sit amet diam vestibulum laoreet ut sit amet leo. Sed cursus finibus porttitor.",
-    "size": "100"
+    "fullDescription": "Kameralne miejsce do wypoczynku, obowiązkowo hamak, domek narzędziowy, duży taras na stół i wypoczynek. Całość utrzymana w kolorystyce biało-zielonej z dodatkiem różowej jeżówki i werbeny. Wiosną na rabatach pojawią się kolorowe tulipany.",
+    "size": "80"
   },
   {
     "id": 1,
-    "location": "Kraków",
-    "thumbnail": "projekt-2-thumbnail.jpg",
-    "images": ["projekt-2-1.jpg", "projekt-2-2.jpg", "projekt-2-3.jpg"],
+    "location": "Łukawiec",
+    "thumbnail": "lukawiec-1.jpg",
+    "images": ["lukawiec-1.jpg", "lukawiec-2.jpg", "lukawiec-3.jpg"],
     "description": "Krótki opis projektu 2.",
-    "fullDescription": "Suspendisse potenti. Curabitur ullamcorper congue aliquam. Cras libero enim, pretium vitae enim pharetra, pretium luctus enim. Nam rhoncus massa lorem, sed tempus turpis mollis ac. Nam id neque enim. Quisque vitae ante sit amet diam vestibulum laoreet ut sit amet leo. Sed cursus finibus porttitor.",
-    "size": "100"
+    "fullDescription": "Ogród frontowy przy długim podjeździe wraz z nawierzchnią utwardzoną. Projektowana zieleń dostosowana do istniejących nasadzeń z żywotników i kulistych drzew przy ogrodzeniu.",
+    "size": "550"
   },
   {
     "id": 2,
-    "location": "Gdynia",
-    "thumbnail": "projekt-3-thumbnail.jpg",
-    "images": ["projekt-3-1.jpg", "projekt-3-2.jpg", "projekt-3-3.jpg"],
+    "location": "Siemianowice",
+    "thumbnail": "siemianowice-6.jpg",
+    "images": [
+      "siemianowice-1.jpg",
+      "siemianowice-2.jpg",
+      "siemianowice-3.jpg",
+      "siemianowice-4.jpg",
+      "siemianowice-5.jpg",
+      "siemianowice-6.jpg"
+    ],
     "description": "Krótki opis projektu 2.",
-    "fullDescription": "Suspendisse potenti. Curabitur ullamcorper congue aliquam. Cras libero enim, pretium vitae enim pharetra, pretium luctus enim. Nam rhoncus massa lorem, sed tempus turpis mollis ac. Nam id neque enim. Quisque vitae ante sit amet diam vestibulum laoreet ut sit amet leo. Sed cursus finibus porttitor.",
-    "size": "100"
+    "fullDescription": "Projekt zakładający oddzielenie się szerokim żywopłotem od sąsiadującej drogi. Posadzenie dużych geometrycznych drzew od frontu i zlikwidowanie istniejącej skarpy poprzez wykonanie palisad. Wybrana zieleń niewymagająca wielu zabiegów pielęgnacyjnych, zdobiąca ogród przez cały rok.",
+    "size": "800"
   },
   {
     "id": 3,
-    "location": "Łukawiec",
-    "thumbnail": "projekt-4-thumbnail.jpg",
-    "images": ["projekt-4-1.jpg", "projekt-4-2.jpg", "projekt-4-3.jpg"],
+    "location": "Radzionków",
+    "thumbnail": "radzinkow-1.jpg",
+    "images": [
+      "radzinkow-1.jpg",
+      "radzinkow-2.jpg",
+      "radzinkow-3.jpg",
+      "radzinkow-4.jpg",
+      "radzinkow-5.jpg",
+      "radzinkow-6.jpg"
+    ],
     "description": "Krótki opis projektu 2.",
-    "fullDescription": "Suspendisse potenti. Curabitur ullamcorper congue aliquam. Cras libero enim, pretium vitae enim pharetra, pretium luctus enim. Nam rhoncus massa lorem, sed tempus turpis mollis ac. Nam id neque enim. Quisque vitae ante sit amet diam vestibulum laoreet ut sit amet leo. Sed cursus finibus porttitor.",
+    "fullDescription": "Projekt minimalistyczny o dużej powierzchni trawnika, efektownie podświetlone drzewka wielopniowe oraz przewaga roślin zimozielonych z trawami ozdobnymi. Całość utrzymana w kolorystyce biało-zielonej, czyli to co lubię najbardziej. Świadome wprowadzenie pnączy na ścianę budynku w celu przełamania jednolitej powierzchni bez okien.",
+    "size": "1200"
+  },
+  {
+    "id": 4,
+    "location": "Wieliczka",
+    "thumbnail": "wieliczka-1.jpg",
+    "images": [
+      "wieliczka-1.jpg",
+      "wieliczka-2.jpg",
+      "wieliczka-3.jpg",
+      "wieliczka-4.jpg",
+      "wieliczka-5.jpg"
+    ],
+    "description": "Krótki opis projektu 2.",
+    "fullDescription": "Ten ogród został zaprojektowany dla rodziców i ich trzylatki. Elementy takie jak huśtawka, tipi oraz mały basen z pewnością przypadną do gustu. Jednocześnie komfortowa strefa relaksu oferuje miejsce do wypoczynku dla dorosłych. Drewniane meble o jasnych obiciach nadają przestrzeni elegancji i spokoju. Gęsto obsadzone krzewy i drzewa zapewniają prywatność oraz naturalne otoczenie, a delikatne girlandy świetlne dodają atmosferze przytulności, dzięki temu ogród jest dostosowany do spędzania czasu na zewnątrz także po zmroku.Jest to idealny ogród dla rodzin ceniących sobie wspólne spędzanie czasu na świeżym powietrzu.",
     "size": "100"
   },
   {
-    "id": 3,
-    "location": "Łukawiec",
-    "thumbnail": "projekt-4-thumbnail.jpg",
-    "images": ["projekt-4-1.jpg", "projekt-4-2.jpg", "projekt-4-3.jpg"],
+    "id": 5,
+    "location": "Rzeszów",
+    "thumbnail": "rzeszow-2.jpg",
+    "images": ["rzeszow-1.jpg", "rzeszow-2.jpg", "rzeszow-3.jpg"],
     "description": "Krótki opis projektu 2.",
-    "fullDescription": "Suspendisse potenti. Curabitur ullamcorper congue aliquam. Cras libero enim, pretium vitae enim pharetra, pretium luctus enim. Nam rhoncus massa lorem, sed tempus turpis mollis ac. Nam id neque enim. Quisque vitae ante sit amet diam vestibulum laoreet ut sit amet leo. Sed cursus finibus porttitor.",
-    "size": "100"
+    "fullDescription": "Niewielki ogródek przy mieszkaniu na parterze w zabudowie szeregowej. Strona wschodnia, mocne nasłonecznienie do południa, taras z kostki już istniejący.Pozostała powierzchnia do zagospodarowania: 2,5 m x 7,2 m Założenia: miejsce do wypoczynku, mały trawnik, borówki, skrzynia na zioła.",
+    "size": "30"
   },
   {
-    "id": 3,
-    "location": "Łukawiec",
-    "thumbnail": "projekt-4-thumbnail.jpg",
-    "images": ["projekt-4-1.jpg", "projekt-4-2.jpg", "projekt-4-3.jpg"],
+    "id": 6,
+    "location": "Będziemyśl",
+    "thumbnail": "bedziemysl-3.jpg",
+    "images": [
+      "bedziemysl-1.jpg",
+      "bedziemysl-2.jpg",
+      "bedziemysl-3.jpg",
+      "bedziemysl-4.jpg",
+      "bedziemysl-5.jpg"
+    ],
     "description": "Krótki opis projektu 2.",
     "fullDescription": "Suspendisse potenti. Curabitur ullamcorper congue aliquam. Cras libero enim, pretium vitae enim pharetra, pretium luctus enim. Nam rhoncus massa lorem, sed tempus turpis mollis ac. Nam id neque enim. Quisque vitae ante sit amet diam vestibulum laoreet ut sit amet leo. Sed cursus finibus porttitor.",
-    "size": "100"
+    "size": "1000"
   },
   {
-    "id": 3,
-    "location": "Łukawiec",
-    "thumbnail": "projekt-4-thumbnail.jpg",
-    "images": ["projekt-4-1.jpg", "projekt-4-2.jpg", "projekt-4-3.jpg"],
+    "id": 7,
+    "location": "Wieliczka-2",
+    "thumbnail": "wieliczka_2-3.jpg",
+    "images": [
+      "wieliczka_2-1.jpg",
+      "wieliczka_2-2.jpg",
+      "wieliczka_2-3.jpg",
+      "wieliczka_2-4.jpg",
+      "wieliczka_2-5.jpg"
+    ],
     "description": "Krótki opis projektu 2.",
-    "fullDescription": "Suspendisse potenti. Curabitur ullamcorper congue aliquam. Cras libero enim, pretium vitae enim pharetra, pretium luctus enim. Nam rhoncus massa lorem, sed tempus turpis mollis ac. Nam id neque enim. Quisque vitae ante sit amet diam vestibulum laoreet ut sit amet leo. Sed cursus finibus porttitor.",
-    "size": "100"
-  },
-  {
-    "id": 3,
-    "location": "Łukawiec",
-    "thumbnail": "projekt-4-thumbnail.jpg",
-    "images": ["projekt-4-1.jpg", "projekt-4-2.jpg", "projekt-4-3.jpg"],
-    "description": "Krótki opis projektu 2.",
-    "fullDescription": "Suspendisse potenti. Curabitur ullamcorper congue aliquam. Cras libero enim, pretium vitae enim pharetra, pretium luctus enim. Nam rhoncus massa lorem, sed tempus turpis mollis ac. Nam id neque enim. Quisque vitae ante sit amet diam vestibulum laoreet ut sit amet leo. Sed cursus finibus porttitor.",
-    "size": "100"
-  },
-  {
-    "id": 3,
-    "location": "Łukawiec",
-    "thumbnail": "projekt-4-thumbnail.jpg",
-    "images": ["projekt-4-1.jpg", "projekt-4-2.jpg", "projekt-4-3.jpg"],
-    "description": "Krótki opis projektu 2.",
-    "fullDescription": "Suspendisse potenti. Curabitur ullamcorper congue aliquam. Cras libero enim, pretium vitae enim pharetra, pretium luctus enim. Nam rhoncus massa lorem, sed tempus turpis mollis ac. Nam id neque enim. Quisque vitae ante sit amet diam vestibulum laoreet ut sit amet leo. Sed cursus finibus porttitor.",
+    "fullDescription": "Ten ogród ma wyraźne, proste linie oraz przemyślaną organizację przestrzeni. Wiszący fotel w kształcie kokonu, dodaje przytulnego i relaksującego klimatu. Konstrukcja nad strefą wypoczynkową to minimalistyczna pergola, która dodaje przestrzeni eleganckiego charakteru. Całość otoczona jest gęstym pnączami i krzewami, które zapewniają prywatność. Ogród jest idealny dla osób ceniących sobie prywatność, spokój i estetykę. Został zaprojektowany z myślą o młodych mieszkańcach którzy chcą stworzyć w swoim domu przestrzeń na relaks i spotkania z przyjaciółmi, a jednocześnie nie mają czasu na intensywne prace pielęgnacyjne w ogrodzie.",
     "size": "100"
   }
 ]
