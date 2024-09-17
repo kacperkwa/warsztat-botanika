@@ -8,9 +8,6 @@
       <img :src="getImgSrc(project.id, project.thumbnail)" />
       <div class="overlay"><p>kliknij po więcej</p></div>
     </div>
-    <div class="project-description" @click.stop>
-      <p>{{ project.description }}</p>
-    </div>
   </div>
 </template>
 <script setup>
@@ -40,6 +37,7 @@ const handleClick = () => {
   width: 25%;
   min-width: 300px;
   max-height: none;
+  margin-bottom: 2rem;
 }
 .project-header {
   display: flex;
