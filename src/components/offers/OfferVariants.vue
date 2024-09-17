@@ -88,15 +88,6 @@ h4 {
   letter-spacing: 0.4rem;
   font-weight: 500;
 }
-h3 {
-  font-size: calc(1.2rem + 0.2vw);
-  text-transform: uppercase;
-  letter-spacing: 0.4rem;
-  font-weight: 500;
-  max-width: max-content;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #9e9d9d;
-}
 
 .separator {
   width: 1px;

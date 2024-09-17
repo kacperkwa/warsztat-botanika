@@ -11,11 +11,16 @@
   --table-cell-color-primary: #96afa1;
   --table-cell-color-secondary: #eaeaea;
 }
+* {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+}
 
 section h2 {
   text-transform: uppercase;
   font-size: calc(2rem + 1vw);
   margin-bottom: 5rem;
+  font-weight: 200;
 }
 section .container {
   display: flex;
@@ -48,7 +53,7 @@ section.offer-container {
   font-size: calc(1.2rem + 0.2vw);
   text-transform: uppercase;
   letter-spacing: 0.4rem;
-  font-weight: 500;
+  font-weight: 200;
   max-width: max-content;
   padding-bottom: 1rem;
   border-bottom: 1px solid #9e9d9d;

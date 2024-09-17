@@ -26,7 +26,7 @@
         />
         <div class="header-text-container">
           <h2>Rozpocznij projektowanie</h2>
-          <p>i odpocznij w swoim ogrodzie</p>
+          <p>i&nbsp;odpocznij w&nbsp;swoim ogrodzie</p>
         </div>
       </div>
       <div class="header-image-container">
@@ -145,10 +145,14 @@ hr {
 }
 .header-text h2 {
   font-size: calc(1.5rem + 2vw);
+  letter-spacing: 0.5rem;
+  font-weight: 300;
   width: 50%;
 }
 .header-text p {
   font-size: calc(1.2rem + 1vw);
+  letter-spacing: 0.4rem;
+  font-weight: 200;
   width: 50%;
 }
 .header-text .logo {
@@ -163,9 +167,9 @@ hr {
   align-items: center;
   gap: 1rem;
 }
-.header-text-container h2{
+.header-text-container h2 {
   text-transform: uppercase;
-  font-size: calc(1.5rem + 1vw);;
+  font-size: calc(1.5rem + 1vw);
 }
 .header-image-container {
   display: flex;
