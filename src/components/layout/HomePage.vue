@@ -25,7 +25,7 @@
           alt="logo-warsztat-botanika"
         />
         <div class="header-text-container">
-          <h2>Rozpocznij projektowanie</h2>
+          <h2>Rozpocznij ze mną projektowanie</h2>
           <p>i&nbsp;odpocznij w&nbsp;swoim ogrodzie</p>
         </div>
       </div>
