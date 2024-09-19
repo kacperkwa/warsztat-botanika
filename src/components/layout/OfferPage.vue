@@ -20,7 +20,4 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
   background-color: var(--background-color-primary);
   color: var(--text-color-primary);
 }
-.container {
-  justify-content: flex-start;
-}
 </style>

@@ -1,7 +1,7 @@
 <template>
-  <section id="contact">
+  <footer id="contact">
     <div class="container">
-      <h2>Zaprojektuj swój ogród ze mną</h2>
+      <h2>zaprojektuję ogród dla Ciebie</h2>
       <div class="content-container">
         <div class="map-container">
           <iframe
@@ -11,7 +11,7 @@
           ></iframe>
         </div>
         <div class="contact-container">
-          <p>po szczegóły oferty zapraszam do kontaktu:</p>
+          <p>po szczegóły oferty i warunki współpracy zapraszam do kontaktu:</p>
           <ul class="contact-list">
             <li class="contant-mail">
               <i class="fa-solid fa-envelope"></i>
@@ -23,18 +23,26 @@
             </li>
             <li class="contact-fb">
               <i class="fa-brands fa-facebook-f"></i
-              ><a href="https://www.facebook.com" target="_blank">facebook/warsztabotanika</a>
+              ><a
+                href="https://www.facebook.com/people/Warsztat-Botanika/61550301932056/?_rdr"
+                target="_blank"
+                >facebook/warsztabotanika</a
+              >
             </li>
             <li class="ccontact-location">
               <i class="fa-solid fa-location-dot"></i>
               <p>Wieliczka i&nbsp;Rzeszów, małopolska i&nbsp;podkarpacie, cała Polska - zdalnie</p>
             </li>
           </ul>
+          <p class="contact-info">
+            Po wysłaniu zapytania przygotuję nieodpłatną i&nbsp;niezobowiązującą wycenę projektu
+            ogrodu.
+          </p>
         </div>
       </div>
     </div>
     <SectionFooter></SectionFooter>
-  </section>
+  </footer>
 </template>
 <script setup>
 import SectionFooter from '@/components/UI/SectionFooter.vue'
@@ -60,6 +68,11 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
   padding-bottom: 3rem;
   letter-spacing: 0.1rem;
   font-weight: 300;
+}
+.contact-container .contact-info {
+  margin-top: 5rem;
+  text-transform: none;
+  font-size: calc(1.4rem + 0.3vw);
 }
 li {
   font-size: calc(1.4rem + 0.3vw);

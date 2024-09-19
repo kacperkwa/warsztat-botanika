@@ -5,7 +5,7 @@
       <p class="project-size">{{ project.size }} m<sup>2</sup></p>
     </div>
     <div class="project-thumbnail">
-      <img :src="getImgSrc(project.id, project.thumbnail)" />
+      <img :src="getImgSrc(project.id, project.thumbnail)" alt="Miniatura projektu." />
       <div class="overlay"><p>kliknij po więcej</p></div>
     </div>
   </div>

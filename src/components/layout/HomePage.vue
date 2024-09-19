@@ -25,15 +25,15 @@
           alt="logo-warsztat-botanika"
         />
         <div class="header-text-container">
-          <h2>Rozpocznij ze mną projektowanie</h2>
-          <p>i&nbsp;odpocznij w&nbsp;swoim ogrodzie</p>
+          <h2>rozpocznij ze&nbsp;mną projektowanie już dziś</h2>
+          <p>i&nbsp;odpocznij w&nbsp;swoim ogrodzie..</p>
         </div>
       </div>
       <div class="header-image-container">
         <img
           class="header-img"
           src="../../assets/img/header-img.jpg"
-          alt="Header image, place to rest in your garden."
+          alt="Obraz przedstawiający ogród z hamakiem."
         />
       </div>
     </div>
@@ -144,16 +144,17 @@ hr {
   width: 100%;
 }
 .header-text h2 {
-  font-size: calc(1.5rem + 2vw);
-  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  font-size: calc(1.2rem + 1.2vw);
+  letter-spacing: 0.4rem;
   font-weight: 300;
-  width: 90%;
+  width: 60%;
 }
 .header-text p {
   font-size: calc(1.2rem + 1vw);
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.2rem;
   font-weight: 200;
-  width: 90%;
+  width: 60%;
 }
 .header-text .logo {
   width: 30vw;
@@ -164,13 +165,13 @@ hr {
   /* text-transform: uppercase; */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   gap: 1rem;
 }
-.header-text-container h2 {
+/* .header-text-container h2 {
   text-transform: uppercase;
   font-size: calc(1.5rem + 1vw);
-}
+} */
 .header-image-container {
   display: flex;
   flex-direction: column;

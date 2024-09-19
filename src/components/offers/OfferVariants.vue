@@ -36,7 +36,7 @@
             dwie koncepcje ogrodu (rzut 2D) z&nbsp;zaplanowaną komunikacją oraz wskazanie
             lokalizacji elementów rozmieszczanych na działce
           </li>
-          <li>model koncepcyjny 3D <em>dwóch</em> wersji ogrodu</li>
+          <li>model koncepcyjny 3D <u>dwóch</u> wersji ogrodu</li>
           <li>
             plansze i&nbsp;zestawienia ilościowe z&nbsp;podziałem na:
             <ol>
@@ -68,13 +68,8 @@
 <style scoped>
 section.offer-container {
   padding-top: 2rem;
-}
-.variants-container {
-  display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
-  min-height: 100vh;
-  width: 100%;
+  gap: 0;
 }
 .variants-content {
   display: flex;
@@ -114,16 +109,13 @@ h4 {
 .extended-variant li ol {
   list-style-type: disc;
 }
-em {
-  font-weight: bold;
-}
+
 @media (max-width: 968px) {
   .variants-content {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 5rem;
-    padding-top: 6rem;
   }
   .basic-variant,
   .extended-variant {
@@ -134,6 +126,9 @@ em {
   }
   .separator {
     display: none;
+  }
+  section.offer-container {
+    gap: 5rem;
   }
 }
 </style>

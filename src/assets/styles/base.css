@@ -16,13 +16,15 @@
   font-weight: 300;
 }
 
-section h2 {
+section h2,
+footer h2 {
   text-transform: uppercase;
   font-size: calc(2rem + 1vw);
-  margin-bottom: 5rem;
   font-weight: 200;
+  margin-bottom: 5rem;
 }
-section .container {
+section .container,
+footer .container {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -30,7 +32,11 @@ section .container {
   width: 100%;
   max-width: 1200px;
 }
-section {
+#offer h2 {
+  margin-bottom: -25px;
+}
+section,
+footer {
   display: flex;
   justify-content: center;
   min-height: 100vh;
@@ -58,4 +64,10 @@ section.offer-container {
   padding-bottom: 1rem;
   border-bottom: 1px solid #9e9d9d;
   align-self: flex-start;
+}
+
+@media (max-width: 768px) {
+  #offer h2 {
+    margin-bottom: 5rem;
+  }
 }

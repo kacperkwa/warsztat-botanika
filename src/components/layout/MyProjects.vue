@@ -1,7 +1,7 @@
 <template>
   <section id="my-projects" ref="projectsSection">
     <div class="container">
-      <h2>moje projekty</h2>
+      <h2>projekty</h2>
       <div class="projects-container">
         <ProjectCard
           @projectClick="openModal(project)"

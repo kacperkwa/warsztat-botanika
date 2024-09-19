@@ -6,7 +6,7 @@
         <div class="text-container">
           <p>
             <span
-              >Całe dzieciństwo spędziłam w&nbsp;przekonaniu, że&nbsp;każde drzewo z&nbsp;igłami
+              >Całe dzieciństwo spędziłam w&nbsp;przekonaniu, że&nbsp;każde drzewo iglaste
               to&nbsp;choinka, a&nbsp;teraz choinkę ubieram tylko na&nbsp;Boże&nbsp;Narodzenie.
               Po&nbsp;ukończeniu studiów magisterskich z&nbsp;tytułem architekta krajobrazu, przez
               4&nbsp;lata pracowałam w&nbsp;biurze projektowym w&nbsp;Krakowie, działającym głównie
@@ -17,7 +17,9 @@
             <span
               >Priorytetem w&nbsp;mojej pracy architekta krajobrazu jest stworzenie przestrzeni
               do&nbsp;wypoczynku i&nbsp;realne możliwości wykonania, ze&nbsp;szczególną dbałością
-              o&nbsp;estetykę.<br />
+              o&nbsp;estetykę. Podczas mojej dotychczasowej pracy nauczyłam się, jak ważne jest
+              dokładne zrozumienie potrzeb klienta i&nbsp;dostosowanie projektu do&nbsp;jego
+              wizji.<br />
               Zamiana niezagospodarowanego lub&nbsp;nieestetycznego otoczenia i&nbsp;stworzenie
               ogrodu, w&nbsp;którym czujemy się dobrze to&nbsp;mój cel. Bardzo lubię
               to&nbsp;co&nbsp;robię.</span

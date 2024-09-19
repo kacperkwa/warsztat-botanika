@@ -7,7 +7,7 @@
           <div class="project-info">
             <div class="project-header">
               <h3 class="project-location">{{ project.location }}</h3>
-              <p class="project-size">{{ project.size }}m<sup>2</sup></p>
+              <p class="project-size">{{ project.size }} m<sup>2</sup></p>
             </div>
             <p class="project-desc">{{ project.fullDescription }}</p>
           </div>
@@ -21,7 +21,7 @@
             :loop="true"
           >
             <swiper-slide v-for="(image, index) in project.images" :key="index">
-              <img :src="getImgSrc(project.id, image)" alt="" />
+              <img :src="getImgSrc(project.id, image)" :alt="project.altMsg" />
             </swiper-slide>
           </swiper>
         </div>
@@ -118,8 +118,7 @@ const getImgSrc = (id, image) => {
 }
 .project-desc {
   font-size: calc(1.4rem + 0.2vw);
-  text-align: center;
-  padding: 0 2rem;
+  text-align: justify;
   width: 55%;
   letter-spacing: 0.2rem;
   font-weight: 300;
@@ -145,6 +144,9 @@ sup {
   #my-swiper {
     width: 100%;
   }
+  .project-desc {
+    width: 90%;
+  }
 }
 @media (max-width: 768px) {
   .wrapper {
@@ -153,6 +155,7 @@ sup {
   }
   .project-desc {
     width: 100%;
+    padding: 0 2rem;
   }
 }
 </style>

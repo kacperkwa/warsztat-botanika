@@ -24,7 +24,7 @@
         <p>
           Gotowe produkty lub elementy na indywidualne zamówienie z&nbsp;podstawowymi wymiarami i
           sugerowanymi materiałami. Może to być: pergola, altana, wiata śmietnikowa, basen, jacuzzi,
-          trampolina, huśtawka, wgłębnik z&nbsp;paleniskiem, warzywnik, itp..
+          trampolina, huśtawka, wgłębnik z&nbsp;paleniskiem, warzywnik, itp.
         </p>
       </div>
       <div class="offer-item">

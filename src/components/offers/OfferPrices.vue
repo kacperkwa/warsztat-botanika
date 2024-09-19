@@ -2,7 +2,7 @@
   <section class="offer-container">
     <h3>cennik</h3>
     <div class="prices-table">
-      <div class="first-row-title div1"><span>powierzchnia opracowania</span></div>
+      <div class="first-row-title div1">powierzchnia opracowania</div>
       <div class="first-row-item div2">
         <span>do 200&nbsp;m<sup>2</sup></span>
       </div>
@@ -32,7 +32,7 @@
           </li>
           <li>
             <p>
-              proponowane gatunki roślin (katalog w formie tabeli ze zdjęciami + moodboard
+              proponowane gatunki roślin (katalog w formie tabeli ze zdjęciami +&nbsp;moodboard
               z&nbsp;kompozycjami)
             </p>
           </li>
@@ -70,13 +70,14 @@
           </li>
           <li>
             <p>
-              proponowane gatunki roślin (katalog w&nbsp;formie tabeli ze zdjęciami + moodboard z&nbsp;kompozycjami)
+              proponowane gatunki roślin (katalog w&nbsp;formie tabeli ze zdjęciami +&nbsp;moodboard
+              z&nbsp;kompozycjami)
             </p>
           </li>
           <li>
             <p>
-              rozmieszczenie roślin (plansza z&nbsp;rozmieszczeniem, lista roślin z&nbsp;podaniem sztuk do
-              zakupu)
+              rozmieszczenie roślin (plansza z&nbsp;rozmieszczeniem, lista roślin z&nbsp;podaniem
+              sztuk do zakupu)
             </p>
           </li>
           <li>
@@ -106,16 +107,25 @@
         </ul>
       </div>
     </div>
+    <p class="prices-info">
+      Nie jestem podatnikiem vat. Podane przedziały są szacowanymi wartościami brutto.<span
+        >Niniejszy cennik ma charakter informacyjny i nie stanowi oferty handlowej w rozumieniu art.
+        66 par. 1 Kodeksu Cywilnego. Wycena każdego projektu jest indywidualna, gdyż wartość danego
+        projektu zależy od wielu czynników – między innymi jego wielkości, stopnia skomplikowania
+        terenu, liczby elementów do zaprojektowania.</span
+      >
+    </p>
   </section>
 </template>
 <style scoped>
-.prices-container {
+.prices-info {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  min-height: 100vh;
-  width: 100%;
+  gap: 1rem;
+  font-size: calc(0.8rem + 0.2vw);
+  font-weight: 300;
+  text-align: justify;
+  max-width: 650px;
 }
 
 .prices-table {
@@ -162,6 +172,9 @@
   letter-spacing: 0.1rem;
   font-weight: 500;
   color: #3d3b3a;
+}
+.first-row-item span {
+  font-weight: 500;
 }
 ul {
   list-style-type: disc;

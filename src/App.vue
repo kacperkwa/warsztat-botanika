@@ -5,8 +5,8 @@
       <AboutMe></AboutMe>
       <MyProjects></MyProjects>
       <OfferPage></OfferPage>
-      <ContactPage></ContactPage>
     </main>
+    <ContactPage></ContactPage>
   </div>
 </template>
 <script setup>
