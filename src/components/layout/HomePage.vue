@@ -3,7 +3,10 @@
     <div class="header-top">
       <div class="container">
         <BurgerMenu v-if="!isWideScreen" @click="toggleNav"></BurgerMenu>
-        <h1>warsztat botanika</h1>
+        <div class="main-header">
+          <h1>warsztat botanika</h1>
+          <p>pracownia projektowa</p>
+        </div>
         <nav v-if="isWideScreen">
           <ul>
             <li><a href="#aboutme">kim jestem</a></li>
@@ -68,6 +71,15 @@ onUnmounted(() => {
 })
 </script>
 <style scoped>
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-header p {
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+}
 header {
   display: flex;
   flex-direction: column;
