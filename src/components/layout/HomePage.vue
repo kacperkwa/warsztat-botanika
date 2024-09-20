@@ -58,7 +58,7 @@ const toggleNav = () => {
   isMenuOpen.value = navStore.isNavOpen
 }
 const checkScreenWidth = () => {
-  isWideScreen.value = window.matchMedia('(min-width: 768px)').matches
+  isWideScreen.value = window.matchMedia('(min-width: 890px)').matches
 }
 
 onMounted(() => {
@@ -71,15 +71,6 @@ onUnmounted(() => {
 })
 </script>
 <style scoped>
-.main-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.main-header p {
-  letter-spacing: 0.2rem;
-  font-size: 1rem;
-}
 header {
   display: flex;
   flex-direction: column;
@@ -123,6 +114,16 @@ nav ul li:last-child {
   font-weight: bold;
 }
 
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-header p {
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  padding-left: 3px;
+}
 .header-top a {
   font-size: 1.2rem;
   text-decoration: none;
@@ -174,16 +175,11 @@ hr {
   object-fit: contain;
 }
 .header-text-container {
-  /* text-transform: uppercase; */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   gap: 1rem;
 }
-/* .header-text-container h2 {
-  text-transform: uppercase;
-  font-size: calc(1.5rem + 1vw);
-} */
 .header-image-container {
   display: flex;
   flex-direction: column;
@@ -201,14 +197,18 @@ hr {
   object-position: bottom;
   display: block;
 }
-@media (max-width: 768px) {
+@media (max-width: 890px) {
   .header-top {
     flex-direction: column;
     height: auto;
   }
 
   .header-top h1 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+  }
+  .main-header p {
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
   }
   .header-text h2,
   .header-text p {
