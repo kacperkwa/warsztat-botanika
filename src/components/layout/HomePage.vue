@@ -12,7 +12,7 @@
             <li><a href="#aboutme">kim jestem</a></li>
             <li><a href="#my-projects">projekty</a></li>
             <li><a href="#offer">oferta</a></li>
-            <li><a href="">pierwszy krok</a></li>
+            <li><a href="#pierwszy-krok">pierwszy krok</a></li>
           </ul>
         </nav>
         <a href="#contact">kontakt</a>

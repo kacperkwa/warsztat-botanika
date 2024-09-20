@@ -8,6 +8,8 @@
   --button-border-color: #96afa1;
   /* section footers */
   --section-footer-background-color: #96afa1;
+  --button-hover-color: #6e8679;
+  --button-color: #96afa1;
   --table-cell-color-primary: #96afa1;
   --table-cell-color-secondary: #eaeaea;
 }

@@ -52,6 +52,7 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
+  height: 100%;
 }
 .text-container {
   display: flex;
