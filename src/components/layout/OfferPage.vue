@@ -1,5 +1,5 @@
 <template>
-  <section id="offer">
+  <section id="oferta">
     <div class="container">
       <h2>OFERTA</h2>
       <OfferVariants></OfferVariants>
@@ -16,7 +16,7 @@ import OfferScope from '@/components/offers/OfferScope.vue'
 import SectionFooter from '@/components/UI/SectionFooter.vue'
 </script>
 <style scoped>
-#offer {
+#oferta {
   background-color: var(--background-color-primary);
   color: var(--text-color-primary);
 }

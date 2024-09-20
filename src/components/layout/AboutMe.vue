@@ -1,5 +1,5 @@
 <template>
-  <section id="aboutme">
+  <section id="o-mnie">
     <div class="container">
       <h2>kim jestem</h2>
       <div class="content-container">
@@ -41,7 +41,7 @@
 import SectionFooter from '@/components/UI/SectionFooter.vue'
 </script>
 <style scoped>
-#aboutme {
+#o-mnie {
   background-color: var(--background-color-secondary);
   color: var(--text-color-secondary);
   scroll-snap-align: start;

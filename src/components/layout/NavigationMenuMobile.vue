@@ -2,9 +2,9 @@
   <nav>
     <button class="close-nav" @click="closeMenu"><i class="fa-solid fa-xmark"></i></button>
     <ul>
-      <li><a href="#aboutme" @click="closeMenu">kim jestem</a></li>
-      <li><a href="#my-projects" @click="closeMenu">projekty</a></li>
-      <li><a href="#offer" @click="closeMenu">oferta</a></li>
+      <li><a href="#o-mnie" @click="closeMenu">kim jestem</a></li>
+      <li><a href="#projekty" @click="closeMenu">projekty</a></li>
+      <li><a href="#oferta" @click="closeMenu">oferta</a></li>
       <li><a href="#pierwszy-krok" @click="closeMenu">pierwszy krok</a></li>
     </ul>
   </nav>

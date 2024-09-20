@@ -1,5 +1,5 @@
 <template>
-  <footer id="contact">
+  <footer id="kontakt">
     <div class="container">
       <h2>zaprojektuję ogród dla Ciebie</h2>
       <div class="content-container">
@@ -48,7 +48,7 @@
 import SectionFooter from '@/components/UI/SectionFooter.vue'
 </script>
 <style scoped>
-#contact {
+#kontakt {
   background-color: var(--background-color-secondary);
   color: var(--text-color-secondary);
 }

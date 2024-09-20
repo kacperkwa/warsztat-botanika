@@ -9,13 +9,13 @@
         </div>
         <nav v-if="isWideScreen">
           <ul>
-            <li><a href="#aboutme">kim jestem</a></li>
-            <li><a href="#my-projects">projekty</a></li>
-            <li><a href="#offer">oferta</a></li>
+            <li><a href="#o-mnie">kim jestem</a></li>
+            <li><a href="#projekty">projekty</a></li>
+            <li><a href="#oferta">oferta</a></li>
             <li><a href="#pierwszy-krok">pierwszy krok</a></li>
           </ul>
         </nav>
-        <a href="#contact">kontakt</a>
+        <a href="#kontakt">kontakt</a>
       </div>
       <hr />
     </div>

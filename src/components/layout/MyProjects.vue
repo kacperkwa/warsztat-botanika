@@ -1,5 +1,5 @@
 <template>
-  <section id="my-projects" ref="projectsSection">
+  <section id="projekty" ref="projectsSection">
     <div class="container">
       <h2>projekty</h2>
       <div class="projects-container">
@@ -73,7 +73,7 @@ onMounted(() => {
 })
 </script>
 <style scoped>
-#my-projects {
+#projekty {
   background-color: var(--background-color-primary);
   color: var(--text-color-primary);
 }
