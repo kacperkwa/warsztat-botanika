@@ -13,7 +13,7 @@
         <div class="contact-container">
           <p>po szczegóły oferty i warunki współpracy zapraszam do kontaktu:</p>
           <ul class="contact-list">
-            <li class="contant-mail">
+            <li class="contact-mail">
               <i class="fa-solid fa-envelope"></i>
               <p>warsztatbotanika@gmail.com</p>
             </li>
@@ -29,7 +29,7 @@
                 >facebook/warsztabotanika</a
               >
             </li>
-            <li class="ccontact-location">
+            <li class="contact-location">
               <i class="fa-solid fa-location-dot"></i>
               <p>Wieliczka i&nbsp;Rzeszów, małopolska i&nbsp;podkarpacie, cała Polska - zdalnie</p>
             </li>
@@ -80,6 +80,13 @@ li {
   gap: 1.5rem;
   align-items: center;
   letter-spacing: 0.2rem;
+}
+.contact-location i {
+  align-self: flex-start;
+  padding-top: 0.4rem;
+}
+.contact-mail i {
+  padding-top: 0.3rem;
 }
 li p,
 li a {
