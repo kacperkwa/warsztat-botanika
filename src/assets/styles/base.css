@@ -34,9 +34,7 @@ footer .container {
   width: 100%;
   max-width: 1200px;
 }
-#offer h2 {
-  margin-bottom: -25px;
-}
+
 section,
 footer {
   display: flex;

@@ -67,9 +67,7 @@
 <script setup></script>
 <style scoped>
 section.offer-container {
-  padding-top: 2rem;
   justify-content: space-evenly;
-  gap: 0;
 }
 .variants-content {
   display: flex;
