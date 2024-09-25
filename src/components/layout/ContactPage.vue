@@ -41,16 +41,19 @@
         </div>
       </div>
     </div>
-    <SectionFooter></SectionFooter>
+    <PolicyModal></PolicyModal>
+    <FooterInfo></FooterInfo>
   </footer>
 </template>
 <script setup>
-import SectionFooter from '@/components/UI/SectionFooter.vue'
+import FooterInfo from '@/components/UI/FooterMenu.vue'
+import PolicyModal from '@/components/policy/PolicyModal.vue'
 </script>
 <style scoped>
 #kontakt {
   background-color: var(--background-color-secondary);
   color: var(--text-color-secondary);
+  padding-bottom: 8rem;
 }
 
 .content-container {
@@ -67,7 +70,7 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
   text-transform: uppercase;
   padding-bottom: 3rem;
   letter-spacing: 0.1rem;
-  font-weight: 300;
+  /* font-weight: 300; */
 }
 .contact-container .contact-info {
   margin-top: 5rem;
