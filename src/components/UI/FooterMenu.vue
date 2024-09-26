@@ -1,15 +1,25 @@
 <template>
   <nav class="menu-container">
     <ul>
-      <li><a href="#kim-jesten">kim jestem</a></li>
+      <li><a href="#o-mnie">kim jestem</a></li>
       <li><a href="#projekty">projekty</a></li>
       <li><a href="#oferta">oferta</a></li>
       <li><a href="#pierwszy-krok">pierwszy krok</a></li>
-      <li><button>polityka prywatności</button></li>
-      <li><button>zgody cookies</button></li>
+      <li><button @click="openModal">polityka prywatności i cookies</button></li>
     </ul>
   </nav>
+  <PolicyModal v-if="!useModal.isPolicyModalOpen"></PolicyModal>
 </template>
+<script setup>
+import PolicyModal from '../policy/PolicyModal.vue'
+import { useModalStore } from '@/stores/modal'
+
+const useModal = useModalStore()
+const openModal = () => {
+  useModal.togglePolicyModal()
+  document.body.style.overflow = 'hidden'
+}
+</script>
 <style scoped>
 .menu-container {
   display: flex;

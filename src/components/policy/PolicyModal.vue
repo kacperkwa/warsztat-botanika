@@ -1,13 +1,15 @@
 <template>
   <teleport to="body">
-    <div class="modal-overlay">
-      <div class="wrapper">
+    <div class="modal-overlay" @click="closeModal">
+      <div class="wrapper" @click.stop>
         <div class="policy-modal">
-          <button class="close-btn" @click="closeModal"><i class="fa-solid fa-xmark"></i></button>
+          <button class="close-btn" @click="closeModal" aria-label="Zamknij okno">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
           <div class="policy-container">
             <h3 class="policy-header">Polityka prywatności i Plików Cookies</h3>
             <div class="policy-info">
-              <ol>
+              <ol class="policy-info-list">
                 <li>
                   <h4>Administrator Danych Osobowych</h4>
                   <p class="policy-desc">
@@ -51,8 +53,15 @@
                         Klikając w te linki, użytkownik jest przekierowywany na zewnętrzne strony,
                         które mogą stosować własne polityki prywatności i plików cookies. Zachęcamy
                         do zapoznania się z politykami prywatności tych serwisów przed rozpoczęciem
-                        korzystania z ich usług:!! Facebook: Polityka prywatnościGoogle: Polityka
-                        prywatności!!
+                        korzystania z ich usług: <br />
+                        <span class="extra-links">
+                          <a href="https://pl-pl.facebook.com/privacy/policy/" target="_blank"
+                            >Facebook - Polityka prywatności</a
+                          >
+                          <a href="https://policies.google.com/privacy?hl=pl" target="_blank">
+                            Google - Polityka prywatności</a
+                          ></span
+                        >
                       </p>
                     </li>
                   </ol>
@@ -82,7 +91,27 @@
                   <p class="policy-desc">
                     Użytkownicy mogą samodzielnie zarządzać plikami cookies poprzez ustawienia
                     przeglądarki. Instrukcje dotyczące zarządzania plikami cookies w popularnych
-                    przeglądarkach: !!! Google Chrome Mozilla Firefox Safari Microsoft Edge !!!
+                    przeglądarkach:
+                    <span class="extra-links">
+                      <a
+                        href="https://support.google.com/accounts/answer/61416?hl=pl&co=GENIE.Platform%3DDesktop"
+                        target="_blank"
+                        >Google Chrome</a
+                      >
+                      <a href="https://support.mozilla.org/pl/kb/ciasteczka" target="_blank"
+                        >Mozilla Firefox</a
+                      >
+                      <a
+                        href="https://support.apple.com/pl-pl/guide/deployment/depf7d5714d4/web"
+                        target="_blank"
+                        >Safari</a
+                      >
+                      <a
+                        href="https://support.microsoft.com/pl-pl/windows/zarz%C4%85dzanie-plikami-cookie-w-przegl%C4%85darce-microsoft-edge-wy%C5%9Bwietlanie-zezwalanie-blokowanie-usuwanie-i-u%C5%BCywanie-168dab11-0753-043d-7c16-ede5947fc64d"
+                        target="_blank"
+                        >Microsoft Edge</a
+                      >
+                    </span>
                   </p>
                 </li>
                 <li>
@@ -102,7 +131,14 @@
     </div>
   </teleport>
 </template>
-<script setup></script>
+<script setup>
+import { useModalStore } from '@/stores/modal'
+const useModal = useModalStore()
+const closeModal = () => {
+  useModal.togglePolicyModal()
+  document.body.style.overflow = ''
+}
+</script>
 
 <style scoped>
 .close-btn {
@@ -136,9 +172,11 @@
   height: 90%;
   width: 90%;
   padding-top: 5rem;
+  padding-bottom: 5rem;
   overflow-y: auto;
   z-index: 1000;
   border-radius: 8px;
+  outline: none;
 }
 ol {
   list-style-type: decimal;
@@ -169,8 +207,25 @@ h3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 4rem;
 }
 .policy-info {
   width: 70%;
+}
+.policy-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.extra-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+.extra-links a {
+  color: var(--text-color-primary);
+  text-decoration: underline;
 }
 </style>

@@ -1,9 +1,11 @@
 <template>
   <teleport to="body">
-    <div class="modal-overlay">
-      <div class="wrapper">
+    <div class="modal-overlay" @click="closeModal">
+      <div class="wrapper" @click.stop>
         <div class="project-modal">
-          <button class="close-btn" @click="closeModal"><i class="fa-solid fa-xmark"></i></button>
+          <button class="close-btn" @click="closeModal" aria-label="Zamknij okno">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
           <div class="project-info">
             <div class="project-header">
               <h3 class="project-location">{{ project.location }}</h3>

@@ -41,13 +41,11 @@
         </div>
       </div>
     </div>
-    <PolicyModal></PolicyModal>
     <FooterInfo></FooterInfo>
   </footer>
 </template>
 <script setup>
 import FooterInfo from '@/components/UI/FooterMenu.vue'
-import PolicyModal from '@/components/policy/PolicyModal.vue'
 </script>
 <style scoped>
 #kontakt {
