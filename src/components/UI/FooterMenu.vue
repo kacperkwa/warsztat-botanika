@@ -8,7 +8,7 @@
       <li><button @click="openModal">polityka prywatności i cookies</button></li>
     </ul>
   </nav>
-  <PolicyModal v-if="!useModal.isPolicyModalOpen"></PolicyModal>
+  <PolicyModal v-if="useModal.isPolicyModalOpen"></PolicyModal>
 </template>
 <script setup>
 import PolicyModal from '../policy/PolicyModal.vue'
