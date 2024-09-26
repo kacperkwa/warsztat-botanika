@@ -228,4 +228,15 @@ h3 {
   color: var(--text-color-primary);
   text-decoration: underline;
 }
+@media (max-width: 1000px) {
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+  .policy-info {
+    width: 100%;
+    padding: 0 2rem;
+  }
+}
 </style>
