@@ -5,8 +5,8 @@
       <li><a href="#o-mnie" @click="closeMenu">kim jestem</a></li>
       <li><a href="#projekty" @click="closeMenu">projekty</a></li>
       <li><a href="#oferta" @click="closeMenu">oferta</a></li>
-      <li><a href="#pierwszy-krok" @click="closeMenu">pierwszy krok</a></li>
       <li><a href="#cennik" @click="closeMenu">cennik</a></li>
+      <li><a href="#pierwszy-krok" @click="closeMenu">pierwszy krok</a></li>
       <li><a href="#kontakt" @click="closeMenu">kontakt</a></li>
     </ul>
   </nav>

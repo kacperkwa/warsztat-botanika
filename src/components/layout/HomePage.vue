@@ -12,8 +12,8 @@
             <li><a href="#o-mnie">kim jestem</a></li>
             <li><a href="#projekty">projekty</a></li>
             <li><a href="#oferta">oferta</a></li>
-            <li><a href="#pierwszy-krok">pierwszy krok</a></li>
             <li><a href="#cennik">cennik</a></li>
+            <li><a href="#pierwszy-krok">pierwszy krok</a></li>
             <li><a href="#kontakt">kontakt</a></li>
           </ul>
         </nav>
@@ -115,7 +115,6 @@ nav ul li:last-child {
   height: 50px;
   max-width: 1200px;
   margin-bottom: 4rem;
-  position: relative;
 }
 .burger-menu-fixed {
   position: fixed;
