@@ -143,8 +143,6 @@ nav ul li:last-child {
   align-items: center;
   text-transform: uppercase;
   padding: 1rem;
-  position: sticky;
-  top: 0;
 }
 
 .header-top h1 {
