@@ -1,5 +1,5 @@
 <template>
-  <section class="offer-container">
+  <section class="offer-container" id="cennik">
     <h3>cennik</h3>
     <div class="prices-table">
       <div class="first-row-title div1">powierzchnia opracowania</div>

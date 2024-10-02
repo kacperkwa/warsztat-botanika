@@ -1,6 +1,6 @@
 <template>
   <header id="home">
-    <div class="header-top">
+    <div class="header-top" ref="mainNav">
       <div class="container">
         <BurgerMenu v-if="!isWideScreen" @click="toggleNav"></BurgerMenu>
         <div class="main-header">
@@ -13,9 +13,10 @@
             <li><a href="#projekty">projekty</a></li>
             <li><a href="#oferta">oferta</a></li>
             <li><a href="#pierwszy-krok">pierwszy krok</a></li>
+            <li><a href="#cennik">cennik</a></li>
+            <li><a href="#kontakt">kontakt</a></li>
           </ul>
         </nav>
-        <a href="#kontakt">kontakt</a>
       </div>
       <hr />
     </div>
@@ -40,6 +41,9 @@
         />
       </div>
     </div>
+    <div v-if="showBurgerMenu" class="burger-menu-fixed" @click="toggleNav">
+      <BurgerMenu />
+    </div>
     <hr />
   </header>
 </template>
@@ -48,26 +52,38 @@ import BurgerMenu from '@/components/UI/BurgerMenu.vue'
 import NavigationMenuMobile from '@/components/layout/NavigationMenuMobile.vue'
 import { ref, onMounted, onUnmounted } from 'vue'
 import { useNavStore } from '@/stores/nav.js'
+
 const navStore = useNavStore()
 const isMenuOpen = ref(false)
-
 const isWideScreen = ref(false)
+const showBurgerMenu = ref(false)
+const mainNav = ref(null)
 
 const toggleNav = () => {
   navStore.toggleNavMenu()
   isMenuOpen.value = navStore.isNavOpen
 }
+
 const checkScreenWidth = () => {
-  isWideScreen.value = window.matchMedia('(min-width: 890px)').matches
+  isWideScreen.value = window.matchMedia('(min-width: 985px)').matches
+}
+
+const handleScroll = () => {
+  const navHeight = mainNav.value?.getBoundingClientRect().height || 0
+  const scrollPosition = window.scrollY
+  // Gdy nawigacja znika z widoku
+  showBurgerMenu.value = scrollPosition > navHeight
 }
 
 onMounted(() => {
   checkScreenWidth()
   window.addEventListener('resize', checkScreenWidth)
+  window.addEventListener('scroll', handleScroll)
 })
 
 onUnmounted(() => {
   window.removeEventListener('resize', checkScreenWidth)
+  window.removeEventListener('scroll', handleScroll)
 })
 </script>
 <style scoped>
@@ -85,7 +101,7 @@ nav ul {
   gap: 3rem;
 }
 nav ul li {
-  padding: 0 3rem 0 0;
+  padding: 0 2rem 0 0;
   border-right: 1px solid var(--text-color-primary);
 }
 nav ul li:last-child {
@@ -99,6 +115,26 @@ nav ul li:last-child {
   height: 50px;
   max-width: 1200px;
   margin-bottom: 4rem;
+  position: relative;
+}
+.burger-menu-fixed {
+  position: fixed;
+  top: 30px;
+  right: 20px;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color-primary);
+  padding: 1rem;
+  border-radius: 5%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.burger-menu-fixed button {
+  background: none;
+  border: none;
 }
 .header-top .container {
   width: 100%;
@@ -107,6 +143,8 @@ nav ul li:last-child {
   align-items: center;
   text-transform: uppercase;
   padding: 1rem;
+  position: sticky;
+  top: 0;
 }
 
 .header-top h1 {
@@ -125,17 +163,12 @@ nav ul li:last-child {
   padding-left: 3px;
 }
 .header-top a {
-  font-size: 1.2rem;
+  font-size: calc(1rem + 0.1vw);
   text-decoration: none;
   color: var(--text-color-primary);
   cursor: pointer;
 }
-.header-top menu {
-  display: flex;
-  font-size: 1.2rem;
-  text-decoration: none;
-  cursor: pointer;
-}
+
 hr {
   width: 100%;
   max-width: 1200px;
@@ -196,6 +229,14 @@ hr {
   object-fit: cover;
   object-position: bottom;
   display: block;
+}
+@media (max-width: 934px) {
+  .header-top .container {
+    flex-direction: row-reverse;
+  }
+  .burger-menu-fixed {
+    padding: 0.5rem;
+  }
 }
 @media (max-width: 890px) {
   .header-top {

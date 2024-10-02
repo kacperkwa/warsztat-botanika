@@ -46,6 +46,7 @@
 .offer-item {
   padding: 2rem;
   width: 300px;
+  min-height: 255px;
   background-color: var(--background-color-secondary);
   color: white;
   border-radius: 4px;
@@ -53,16 +54,17 @@
 .offer-item h4 {
   text-transform: uppercase;
   letter-spacing: 0.3rem;
-  font-size: calc(1.6rem + 0.3vw);
-  margin-bottom: 3rem;
+  font-size: calc(1.2rem + 0.2vw);
+  margin-bottom: 5rem;
+  text-align: center;
 }
 .item-list {
   list-style-type: disc;
   padding-left: 2rem;
 }
 .item-list li {
-  margin: 1rem 0;
-  font-size: calc(1.4rem + 0.3vw);
+  margin: 1.5rem 0;
+  font-size: calc(1.2rem + 0.2vw);
   letter-spacing: 0.2rem;
 }
 @media (max-width: 716px) {
