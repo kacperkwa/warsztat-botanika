@@ -6,6 +6,8 @@
       <li><a href="#projekty" @click="closeMenu">projekty</a></li>
       <li><a href="#oferta" @click="closeMenu">oferta</a></li>
       <li><a href="#pierwszy-krok" @click="closeMenu">pierwszy krok</a></li>
+      <li><a href="#cennik" @click="closeMenu">cennik</a></li>
+      <li><a href="#kontakt" @click="closeMenu">kontakt</a></li>
     </ul>
   </nav>
 </template>
@@ -21,35 +23,45 @@ const closeMenu = () => {
 nav {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 5rem;
   position: fixed;
-  width: 100%;
+  width: 50%;
   height: 100vh;
   top: 0;
-  left: 0;
+  right: 0;
   padding: 2rem;
   background-color: var(--background-color-secondary);
   overflow-y: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
   z-index: 1000;
 }
 ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5rem;
+  gap: 4rem;
 }
 a {
   text-transform: uppercase;
+  text-align: left;
   font-size: 1.6rem;
   color: var(--text-color-secondary);
   text-decoration: none;
 }
 button {
-  display: flex;
+  position: absolute;
+  top: 30px;
+  right: 20px;
   border: none;
-  background: none;
+  background: transparent;
   color: var(--text-color-secondary);
   font-size: 3rem;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  nav {
+    width: 70%;
+  }
 }
 </style>

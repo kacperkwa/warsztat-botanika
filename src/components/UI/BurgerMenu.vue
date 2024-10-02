@@ -11,5 +11,6 @@ i {
 }
 button {
   border: none;
+  background-color: transparent;
 }
 </style>
