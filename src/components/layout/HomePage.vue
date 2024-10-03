@@ -7,21 +7,16 @@
           <h1>warsztat botanika</h1>
           <p>pracownia projektowa</p>
         </div>
-        <nav v-if="isWideScreen">
-          <ul>
-            <li><a href="#o-mnie">kim jestem</a></li>
-            <li><a href="#projekty">projekty</a></li>
-            <li><a href="#oferta">oferta</a></li>
-            <li><a href="#cennik">cennik</a></li>
-            <li><a href="#pierwszy-krok">pierwszy krok</a></li>
-            <li><a href="#kontakt">kontakt</a></li>
-          </ul>
-        </nav>
+        <NavigationMenuDesktop v-if="isWideScreen" />
+        <Transition name="fade"
+          ><NavigationMenuMobile v-if="isMenuOpen" @closeMenu="toggleNav"
+        /></Transition>
+
+        <ScrollMenuButton v-if="showBurgerMenu" @click="toggleNav" />
       </div>
       <hr />
     </div>
     <div class="header-content">
-      <NavigationMenuMobile v-if="isMenuOpen" @closeMenu="toggleNav"></NavigationMenuMobile>
       <div class="header-text">
         <img
           class="logo"
@@ -41,14 +36,14 @@
         />
       </div>
     </div>
-    <ScrollMenu v-if="showBurgerMenu" @click="toggleNav" />
     <hr />
   </header>
 </template>
 <script setup>
 import BurgerMenu from '@/components/UI/BurgerMenu.vue'
-import ScrollMenu from '../UI/ScrollMenu.vue'
+import ScrollMenuButton from '../UI/ScrollMenuButton.vue'
 import NavigationMenuMobile from '@/components/layout/NavigationMenuMobile.vue'
+import NavigationMenuDesktop from './NavigationMenuDesktop.vue'
 import { ref, onMounted, onUnmounted } from 'vue'
 import { useNavStore } from '@/stores/nav.js'
 
@@ -94,17 +89,6 @@ header {
   background-color: var(--background-color-primary);
   color: var(--text-color-primary);
 }
-nav ul {
-  display: flex;
-  gap: 3rem;
-}
-nav ul li {
-  padding: 0 2rem 0 0;
-  border-right: 1px solid var(--text-color-primary);
-}
-nav ul li:last-child {
-  border-right: none;
-}
 .header-top {
   display: flex;
   flex-direction: column;
@@ -114,7 +98,6 @@ nav ul li:last-child {
   max-width: 1200px;
   margin-bottom: 4rem;
 }
-
 .header-top .container {
   width: 100%;
   display: flex;
@@ -138,12 +121,6 @@ nav ul li:last-child {
   letter-spacing: 0.2rem;
   font-size: 1rem;
   padding-left: 3px;
-}
-.header-top a {
-  font-size: calc(1rem + 0.1vw);
-  text-decoration: none;
-  color: var(--text-color-primary);
-  cursor: pointer;
 }
 
 hr {
@@ -207,7 +184,17 @@ hr {
   object-position: bottom;
   display: block;
 }
-@media (max-width: 934px) {
+.fade-enter-active,
+.fade-leave-active {
+  transition:
+    opacity 0.5s,
+    right 0.5s;
+}
+.fade-enter-from,
+.fade-leave-to {
+  right: -100%;
+}
+@media (max-width: 984px) {
   .header-top .container {
     flex-direction: row-reverse;
   }
