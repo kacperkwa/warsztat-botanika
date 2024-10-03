@@ -41,14 +41,13 @@
         />
       </div>
     </div>
-    <div v-if="showBurgerMenu" class="burger-menu-fixed" @click="toggleNav">
-      <BurgerMenu />
-    </div>
+    <ScrollMenu v-if="showBurgerMenu" @click="toggleNav" />
     <hr />
   </header>
 </template>
 <script setup>
 import BurgerMenu from '@/components/UI/BurgerMenu.vue'
+import ScrollMenu from '../UI/ScrollMenu.vue'
 import NavigationMenuMobile from '@/components/layout/NavigationMenuMobile.vue'
 import { ref, onMounted, onUnmounted } from 'vue'
 import { useNavStore } from '@/stores/nav.js'
@@ -71,7 +70,6 @@ const checkScreenWidth = () => {
 const handleScroll = () => {
   const navHeight = mainNav.value?.getBoundingClientRect().height || 0
   const scrollPosition = window.scrollY
-  // Gdy nawigacja znika z widoku
   showBurgerMenu.value = scrollPosition > navHeight
 }
 
@@ -116,25 +114,7 @@ nav ul li:last-child {
   max-width: 1200px;
   margin-bottom: 4rem;
 }
-.burger-menu-fixed {
-  position: fixed;
-  top: 30px;
-  right: 20px;
-  z-index: 200;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--background-color-primary);
-  padding: 1rem;
-  border-radius: 5%;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
-  cursor: pointer;
-}
 
-.burger-menu-fixed button {
-  background: none;
-  border: none;
-}
 .header-top .container {
   width: 100%;
   display: flex;
@@ -230,9 +210,6 @@ hr {
 @media (max-width: 934px) {
   .header-top .container {
     flex-direction: row-reverse;
-  }
-  .burger-menu-fixed {
-    padding: 0.5rem;
   }
 }
 @media (max-width: 890px) {
