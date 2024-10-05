@@ -31,7 +31,7 @@
       <div class="header-image-container">
         <img
           class="header-img"
-          src="../../assets/img/header-img.jpg"
+          src="../../assets/img/header-img-desktop.jpg"
           alt="Obraz przedstawiający ogród z hamakiem."
         />
       </div>

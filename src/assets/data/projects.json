@@ -2,7 +2,7 @@
   {
     "id": 0,
     "location": "Kraków",
-    "thumbnail": "krakow-3.jpg",
+    "thumbnail": "krakow-thumbnail.jpg",
     "images": [
       "krakow-1.jpg",
       "krakow-2.jpg",
@@ -20,7 +20,7 @@
   {
     "id": 1,
     "location": "Łukawiec",
-    "thumbnail": "lukawiec-1.jpg",
+    "thumbnail": "lukawiec-thumbnail.jpg",
     "images": ["lukawiec-1.jpg", "lukawiec-2.jpg", "lukawiec-3.jpg"],
     "altMsg": "Wizualizacja projektu - Łukawiec",
     "fullDescription": "Ogród frontowy przy długim podjeździe wraz z nawierzchnią utwardzoną. Projektowana zieleń dostosowana do istniejących nasadzeń z żywotników i kulistych drzew przy ogrodzeniu.",
@@ -29,7 +29,7 @@
   {
     "id": 2,
     "location": "Siemianowice",
-    "thumbnail": "siemianowice-6.jpg",
+    "thumbnail": "siemianowice-thumbnail.jpg",
     "images": [
       "siemianowice-1.jpg",
       "siemianowice-2.jpg",
@@ -45,7 +45,7 @@
   {
     "id": 3,
     "location": "Radzionków",
-    "thumbnail": "radzinkow-1.jpg",
+    "thumbnail": "radzinkow-thumbnail.jpg",
     "images": [
       "radzinkow-1.jpg",
       "radzinkow-2.jpg",
@@ -61,7 +61,7 @@
   {
     "id": 4,
     "location": "Wieliczka",
-    "thumbnail": "wieliczka-1.jpg",
+    "thumbnail": "wieliczka-thumbnail.jpg",
     "images": [
       "wieliczka-1.jpg",
       "wieliczka-2.jpg",
@@ -76,7 +76,7 @@
   {
     "id": 5,
     "location": "Rzeszów",
-    "thumbnail": "rzeszow-2.jpg",
+    "thumbnail": "rzeszow-thumbnail.jpg",
     "images": ["rzeszow-1.jpg", "rzeszow-2.jpg", "rzeszow-3.jpg"],
     "altMsg": "Wizualizacja projektu - Rzeszów",
     "fullDescription": "Niewielki ogródek przy mieszkaniu na parterze w zabudowie szeregowej. Strona wschodnia, mocne nasłonecznienie do południa, taras z kostki już istniejący.Pozostała powierzchnia do zagospodarowania: 2,5 m x 7,2 m Założenia: miejsce do wypoczynku, mały trawnik, borówki, skrzynia na zioła.",
@@ -85,7 +85,7 @@
   {
     "id": 6,
     "location": "Będziemyśl",
-    "thumbnail": "bedziemysl-3.jpg",
+    "thumbnail": "bedziemysl-thumbnail.jpg",
     "images": [
       "bedziemysl-1.jpg",
       "bedziemysl-2.jpg",
@@ -100,7 +100,7 @@
   {
     "id": 7,
     "location": "Wieliczka-2",
-    "thumbnail": "wieliczka_2-3.jpg",
+    "thumbnail": "wieliczka_2-thumbnail.jpg",
     "images": [
       "wieliczka_2-1.jpg",
       "wieliczka_2-2.jpg",
