@@ -74,7 +74,7 @@
 .offer-item {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 h4 {
   text-transform: uppercase;
@@ -83,7 +83,7 @@ h4 {
   font-size: calc(1.2rem + 0.2vw);
 }
 p {
-  font-size: calc(1rem + 0.2vw);
+  font-size: calc(1.1rem + 0.3vw);
   font-weight: 300;
   letter-spacing: 0.1rem;
 }

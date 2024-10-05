@@ -34,7 +34,7 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
 }
 .content-container p {
   text-align: justify;
-  font-size: calc(1rem + 0.5vw);
+  font-size: calc(1.1rem + 0.5vw);
   letter-spacing: 0.2rem;
   font-weight: 300;
 }

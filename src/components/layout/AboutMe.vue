@@ -62,8 +62,8 @@ import SectionFooter from '@/components/UI/SectionFooter.vue'
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  font-size: calc(1rem + 0.5vw);
-  letter-spacing: 0.2rem;
+  font-size: calc(1.1rem + 0.5vw);
+  letter-spacing: 0.1rem;
   text-align: justify;
 }
 .image-container {
