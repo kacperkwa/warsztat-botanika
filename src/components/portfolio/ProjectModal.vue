@@ -22,7 +22,7 @@
           :loop="true"
         >
           <swiper-slide v-for="(image, index) in project.images" :key="index">
-            <img :src="getImgSrc(project.id, image)" :alt="project.altMsg" />
+            <img :src="getImgSrc(project.id, image)" :alt="project.altMsg" loading="lazy" />
           </swiper-slide>
         </swiper>
       </div>

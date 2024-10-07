@@ -1,5 +1,5 @@
 <template>
-  <button><i class="fa-solid fa-bars"></i></button>
+  <button aria-label="menu"><i class="fa-solid fa-bars"></i></button>
 </template>
 
 <style scoped>
