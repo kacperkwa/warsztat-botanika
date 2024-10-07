@@ -19,7 +19,13 @@
       </div>
     </div>
     <SectionFooter></SectionFooter>
-    <ProjectModal v-if="isModalOpen" @close="closeModal" :project="selectedProject"></ProjectModal>
+    <Transition name="fade"
+      ><ProjectModal
+        v-if="isModalOpen"
+        @close="closeModal"
+        :project="selectedProject"
+      ></ProjectModal
+    ></Transition>
   </section>
 </template>
 
@@ -107,5 +113,19 @@ onMounted(() => {
 
 .pagination span {
   font-size: 1rem;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease-out;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-to,
+.fade-leave-from {
+  opacity: 1;
 }
 </style>

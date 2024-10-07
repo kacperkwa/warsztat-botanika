@@ -186,9 +186,7 @@ hr {
 }
 .fade-enter-active,
 .fade-leave-active {
-  transition:
-    opacity 0.5s,
-    right 0.5s;
+  transition: right 0.5s;
 }
 .fade-enter-from,
 .fade-leave-to {

@@ -1,35 +1,33 @@
 <template>
-  <teleport to="body">
-    <div class="modal-overlay" @click="closeModal">
-      <div class="wrapper" @click.stop>
-        <div class="project-modal">
-          <button class="close-btn" @click="closeModal" aria-label="Zamknij okno">
-            <i class="fa-solid fa-xmark"></i>
-          </button>
-          <div class="project-info">
-            <div class="project-header">
-              <h3 class="project-location">{{ project.location }}</h3>
-              <p class="project-size">{{ project.size }} m<sup>2</sup></p>
-            </div>
-            <p class="project-desc">{{ project.fullDescription }}</p>
+  <div class="modal-overlay" @click="closeModal">
+    <div class="wrapper" @click.stop>
+      <div class="project-modal">
+        <button class="close-btn" @click="closeModal" aria-label="Zamknij okno">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="project-info">
+          <div class="project-header">
+            <h3 class="project-location">{{ project.location }}</h3>
+            <p class="project-size">{{ project.size }} m<sup>2</sup></p>
           </div>
-          <swiper
-            id="my-swiper"
-            :slides-per-view="1"
-            :space-between="0"
-            :modules="modules"
-            :navigation="{ clickable: true }"
-            :pagination="{ clickable: true }"
-            :loop="true"
-          >
-            <swiper-slide v-for="(image, index) in project.images" :key="index">
-              <img :src="getImgSrc(project.id, image)" :alt="project.altMsg" />
-            </swiper-slide>
-          </swiper>
+          <p class="project-desc">{{ project.fullDescription }}</p>
         </div>
+        <swiper
+          id="my-swiper"
+          :slides-per-view="1"
+          :space-between="0"
+          :modules="modules"
+          :navigation="{ clickable: true }"
+          :pagination="{ clickable: true }"
+          :loop="true"
+        >
+          <swiper-slide v-for="(image, index) in project.images" :key="index">
+            <img :src="getImgSrc(project.id, image)" :alt="project.altMsg" />
+          </swiper-slide>
+        </swiper>
       </div>
     </div>
-  </teleport>
+  </div>
 </template>
 <script setup>
 import { defineEmits, defineProps } from 'vue'
@@ -99,6 +97,7 @@ const getImgSrc = (id, image) => {
   justify-content: center;
   min-height: min-content;
   width: 100%;
+  padding-bottom: 3rem;
 }
 .project-info {
   display: flex;
