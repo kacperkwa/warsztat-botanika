@@ -1,12 +1,12 @@
 <template>
   <nav>
     <ul>
-      <li><a href="#o-mnie">kim jestem</a></li>
-      <li><a href="#projekty">projekty</a></li>
-      <li><a href="#oferta">oferta</a></li>
-      <li><a href="#cennik">cennik</a></li>
-      <li><a href="#pierwszy-krok">pierwszy krok</a></li>
-      <li><a href="#kontakt">kontakt</a></li>
+      <li><a class="navigation-hover" href="#projekty">projekty</a></li>
+      <li><a class="navigation-hover" href="#oferta">oferta</a></li>
+      <li><a class="navigation-hover" href="#cennik">cennik</a></li>
+      <li><a class="navigation-hover" href="#o-mnie">kim jestem</a></li>
+      <li><a class="navigation-hover" href="#pierwszy-krok">pierwszy krok</a></li>
+      <li><a class="navigation-hover" href="#kontakt">kontakt</a></li>
     </ul>
   </nav>
 </template>
@@ -32,22 +32,8 @@ a {
 a:hover {
   text-shadow: 0 0 1px var(--text-color-primary);
 }
-a::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  border-radius: 4px;
+.navigation-hover::before {
   background-color: var(--text-color-primary);
-  bottom: -3px;
-  left: 0;
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
-}
-
-a:hover::before {
-  transform-origin: left;
-  transform: scaleX(1);
+  height: 1px;
 }
 </style>
