@@ -6,6 +6,7 @@
       <MyProjects></MyProjects>
       <OfferPage></OfferPage>
       <FirstStep></FirstStep>
+      <CookiesBanner></CookiesBanner>
     </main>
     <ContactPage></ContactPage>
   </div>
@@ -18,6 +19,7 @@ import ContactPage from '@/components/layout/ContactPage.vue'
 import OfferPage from '@/components/layout/OfferPage.vue'
 import FirstStep from './components/layout/FirstStep.vue'
 import { onMounted, onBeforeUnmount } from 'vue'
+import CookiesBanner from './components/policy/CookiesBanner.vue'
 
 const updateURL = (sectionId) => {
   const currentURL = window.location.pathname
