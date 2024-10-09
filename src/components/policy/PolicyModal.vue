@@ -123,6 +123,15 @@
                     polityki, aby być na bieżąco z aktualnymi praktykami.
                   </p>
                 </li>
+                <li>
+                  <h4>Zapisy w Local Storage</h4>
+                  <p class="policy-desc">
+                    Akceptacja plików cookie przez użytkownika jest zapisywana w local storage
+                    przeglądarki, co pozwala na uniknięcie ponownego wyświetlania banera
+                    informacyjnego. Użytkownik ma możliwość usunięcia tych danych z local storage w
+                    ustawieniach przeglądarki.
+                  </p>
+                </li>
               </ol>
             </div>
           </div>
