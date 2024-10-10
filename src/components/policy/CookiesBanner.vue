@@ -14,22 +14,22 @@
   </div>
 </template>
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 import { useModalStore } from '@/stores/modal.js'
 
 const useModal = useModalStore()
 const isAccepted = ref(false)
-onMounted(() => {
-  const cookieConsent = localStorage.getItem('cookieConsent')
-  if (cookieConsent) {
-    isAccepted.value = true
-  }
-})
+// onMounted(() => {
+//   const cookieConsent = localStorage.getItem('cookieConsent')
+//   if (cookieConsent) {
+//     isAccepted.value = true
+//   }
+// })
 
-const acceptCookies = () => {
-  isAccepted.value = true
-  localStorage.setItem('cookieConsent', true)
-}
+// const acceptCookies = () => {
+//   isAccepted.value = true
+//   localStorage.setItem('cookieConsent', true)
+// }
 const openPolicyModal = () => {
   useModal.isPolicyModalOpen = true
 
