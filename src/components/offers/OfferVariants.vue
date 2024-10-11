@@ -9,13 +9,13 @@
             dwie koncepcje ogrodu (rzut 2D) z&nbsp;zaplanowaną komunikacją oraz wskazanie
             lokalizacji elementów rozmieszczanych na działce
           </li>
-          <li>model koncepcyjny 3D wybranej wersji</li>
+          <li>model koncepcyjny 3D <u>wybranej</u> wersji</li>
           <li>
             plansze z&nbsp;podziałem na:
             <ol>
               <li>
-                proponowane gatunki roślin - katalog ze zdjęciami + moodboard z&nbsp;kompozycjami,
-                bez planu nasadzeń
+                proponowane gatunki roślin - katalog ze zdjęciami +&nbsp;moodboard
+                z&nbsp;kompozycjami, bez planu nasadzeń
               </li>
               <li>nawierzchnie - sugerowana kolorystyka, zestawienie ilościowe, wymiarowanie</li>
               <li>

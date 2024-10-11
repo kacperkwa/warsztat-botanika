@@ -13,9 +13,9 @@
         <span>801 - 1500&nbsp;m<sup>2</sup></span>
       </div>
       <div class="second-row-title div5">WARIANT PODSTAWOWY</div>
-      <div class="second-row-item div6">700 - 2&nbsp;000 zł</div>
-      <div class="second-row-item div7">2 000 - 4&nbsp;000 zł</div>
-      <div class="second-row-item div8">4 000 - 6&nbsp;000 zł</div>
+      <div class="second-row-item div6">700 - 2&nbsp;000&nbsp;zł</div>
+      <div class="second-row-item div7">2 000 - 4&nbsp;000&nbsp;zł</div>
+      <div class="second-row-item div8">4 000 - 6&nbsp;000&nbsp;zł</div>
       <div class="third-row-item div9">
         <ul>
           <li>
@@ -54,9 +54,9 @@
         </ul>
       </div>
       <div class="fourth-row-title div10">WARIANT ROZSZERZONY</div>
-      <div class="fourth-row-item div11">1 400 - 4&nbsp;000 zł</div>
-      <div class="fourth-row-item div12">4 000 - 8&nbsp;000 zł</div>
-      <div class="fourth-row-item div13">8 000 - 15&nbsp;000 zł</div>
+      <div class="fourth-row-item div11">1 400 - 4&nbsp;000&nbsp;zł</div>
+      <div class="fourth-row-item div12">4 000 - 8&nbsp;000&nbsp;zł</div>
+      <div class="fourth-row-item div13">8 000 - 15&nbsp;000&nbsp;zł</div>
       <div class="fifth-row-item div14">
         <ul>
           <li>
@@ -118,6 +118,11 @@
   </section>
 </template>
 <style scoped>
+div {
+  border-radius: 5px;
+  padding: 1rem 0;
+}
+
 .prices-info {
   display: flex;
   flex-direction: column;
@@ -134,7 +139,7 @@
   grid-auto-rows: minmax(80px, auto);
   text-align: center;
   gap: 1rem;
-  max-width: 650px;
+  max-width: 660px;
   padding-top: 3rem;
 }
 .prices-table div {

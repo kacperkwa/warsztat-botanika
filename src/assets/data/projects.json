@@ -13,7 +13,7 @@
       "krakow-7.jpg",
       "krakow-8.jpg"
     ],
-    "altMsg": "Wizualizacja projektu - Kraków.",
+    "altMsg": "Wizualizacja projektu ogrodu- Kraków.",
     "fullDescription": "Kameralne miejsce do wypoczynku, obowiązkowo hamak, domek narzędziowy, duży taras na stół i wypoczynek. Całość utrzymana w kolorystyce biało-zielonej z dodatkiem różowej jeżówki i werbeny. Wiosną na rabatach pojawią się kolorowe tulipany.",
     "size": "80"
   },
@@ -22,7 +22,7 @@
     "location": "Łukawiec",
     "thumbnail": "lukawiec-thumbnail.jpg",
     "images": ["lukawiec-1.jpg", "lukawiec-2.jpg", "lukawiec-3.jpg"],
-    "altMsg": "Wizualizacja projektu - Łukawiec",
+    "altMsg": "Wizualizacja projektu ogrodu- Łukawiec",
     "fullDescription": "Ogród frontowy przy długim podjeździe wraz z nawierzchnią utwardzoną. Projektowana zieleń dostosowana do istniejących nasadzeń z żywotników i kulistych drzew przy ogrodzeniu.",
     "size": "550"
   },
@@ -38,7 +38,7 @@
       "siemianowice-5.jpg",
       "siemianowice-6.jpg"
     ],
-    "altMsg": "Wizualizacja projektu - Siemianowice",
+    "altMsg": "Wizualizacja projektu ogrodu- Siemianowice",
     "fullDescription": "Projekt zakładający oddzielenie się szerokim żywopłotem od sąsiadującej drogi. Posadzenie dużych geometrycznych drzew od frontu i zlikwidowanie istniejącej skarpy poprzez wykonanie palisad. Wybrana zieleń niewymagająca wielu zabiegów pielęgnacyjnych, zdobiąca ogród przez cały rok.",
     "size": "800"
   },
@@ -54,7 +54,7 @@
       "radzinkow-5.jpg",
       "radzinkow-6.jpg"
     ],
-    "altMsg": "Wizualizacja projektu - Radzionków",
+    "altMsg": "Wizualizacja projektu ogrodu- Radzionków",
     "fullDescription": "Projekt minimalistyczny o dużej powierzchni trawnika, efektownie podświetlone drzewka wielopniowe oraz przewaga roślin zimozielonych z trawami ozdobnymi. Całość utrzymana w kolorystyce biało-zielonej, czyli to co lubię najbardziej. Świadome wprowadzenie pnączy na ścianę budynku w celu przełamania jednolitej powierzchni bez okien.",
     "size": "1200"
   },
@@ -69,7 +69,7 @@
       "wieliczka-4.jpg",
       "wieliczka-5.jpg"
     ],
-    "altMsg": "Wizualizacja projektu - Wieliczka",
+    "altMsg": "Wizualizacja projektu ogrodu- Wieliczka",
     "fullDescription": "Ten ogród został zaprojektowany dla rodziców i ich trzylatki. Elementy takie jak huśtawka, tipi oraz mały basen z pewnością przypadną do gustu. Jednocześnie komfortowa strefa relaksu oferuje miejsce do wypoczynku dla dorosłych. Drewniane meble o jasnych obiciach nadają przestrzeni elegancji i spokoju. Gęsto obsadzone krzewy i drzewa zapewniają prywatność oraz naturalne otoczenie, a delikatne girlandy świetlne dodają atmosferze przytulności, dzięki temu ogród jest dostosowany do spędzania czasu na zewnątrz także po zmroku.Jest to idealny ogród dla rodzin ceniących sobie wspólne spędzanie czasu na świeżym powietrzu.",
     "size": "100"
   },
@@ -78,7 +78,7 @@
     "location": "Rzeszów",
     "thumbnail": "rzeszow-thumbnail.jpg",
     "images": ["rzeszow-1.jpg", "rzeszow-2.jpg", "rzeszow-3.jpg"],
-    "altMsg": "Wizualizacja projektu - Rzeszów",
+    "altMsg": "Wizualizacja projektu ogrodu- Rzeszów",
     "fullDescription": "Niewielki ogródek przy mieszkaniu na parterze w zabudowie szeregowej. Strona wschodnia, mocne nasłonecznienie do południa, taras z kostki już istniejący.Pozostała powierzchnia do zagospodarowania: 2,5 m x 7,2 m Założenia: miejsce do wypoczynku, mały trawnik, borówki, skrzynia na zioła.",
     "size": "30"
   },
@@ -93,7 +93,7 @@
       "bedziemysl-4.jpg",
       "bedziemysl-5.jpg"
     ],
-    "altMsg": "Wizualizacja projektu - Będziemyśl",
+    "altMsg": "Wizualizacja projektu ogrodu- Będziemyśl",
     "fullDescription": "Ogród zaprojektowany dla rodziny, gdzie rabaty poprowadzone są swobodnymi liniami. W części ogrodu, gdzie rosną już brzozy zaplanowano leśną strefę w której zasadzone zostaną niższe byliny znoszące zacienienie, a także paprocie i niewysokie krzewy, które razem tworzą spokojny, odizolowany kącik do odpoczynku. Na terenie opracowania znajduje się domek narzędziowy, wykonany z drewna, służący zarówno do przechowywania narzędzi ogrodniczych, jako przestrzeń do pracy i miejsce do składowania opału. Zaprojektowane zostało palenisko otoczone zielenią, a także strefę z krzewami i drzewami owocowymi, które nie tylko dodają naturalnego uroku, ale także oferują rodzinie świeże owoce.",
     "size": "1000"
   },
@@ -108,7 +108,7 @@
       "wieliczka_2-4.jpg",
       "wieliczka_2-5.jpg"
     ],
-    "altMsg": "Wizualizacja projektu - Wieliczka-2",
+    "altMsg": "Wizualizacja projektu ogrodu- Wieliczka-2",
     "fullDescription": "Ten ogród ma wyraźne, proste linie oraz przemyślaną organizację przestrzeni. Wiszący fotel w kształcie kokonu, dodaje przytulnego i relaksującego klimatu. Konstrukcja nad strefą wypoczynkową to minimalistyczna pergola, która dodaje przestrzeni eleganckiego charakteru. Całość otoczona jest gęstym pnączami i krzewami, które zapewniają prywatność. Ogród jest idealny dla osób ceniących sobie prywatność, spokój i estetykę. Został zaprojektowany z myślą o młodych mieszkańcach którzy chcą stworzyć w swoim domu przestrzeń na relaks i spotkania z przyjaciółmi, a jednocześnie nie mają czasu na intensywne prace pielęgnacyjne w ogrodzie.",
     "size": "70"
   }

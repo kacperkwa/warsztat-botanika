@@ -38,6 +38,7 @@ button {
   color: var(--text-color-secondary);
   cursor: pointer;
   font-size: 1.2rem;
+  padding-right: 0.5rem;
 }
 button {
   background-color: transparent;
@@ -51,5 +52,12 @@ ul {
   justify-content: center;
   gap: 1rem;
   list-style: none;
+}
+nav ul li {
+  padding: 0 0.5rem 0 0;
+  border-right: 1px solid var(--text-color-secondary);
+}
+nav ul li:last-child {
+  border-right: none;
 }
 </style>

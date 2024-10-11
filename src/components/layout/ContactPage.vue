@@ -65,7 +65,7 @@ import FooterInfo from '@/components/UI/FooterMenu.vue'
   width: 100%;
 }
 .contact-container > p {
-  font-size: calc(1.4em + 0.4vw);
+  font-size: calc(1.4em + 0.2vw);
   text-transform: uppercase;
   padding-bottom: 3rem;
   letter-spacing: 0.1rem;

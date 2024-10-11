@@ -32,7 +32,7 @@
         <img
           class="header-img"
           src="../../assets/img/header-img-desktop.jpg"
-          alt="Obraz przedstawiający ogród z hamakiem."
+          alt="Obraz przedstawiający projekt ogrodu z hamakiem."
         />
       </div>
     </div>

@@ -43,7 +43,9 @@
                         statystycznych o ruchu. Google może zbierać dane na temat interakcji
                         użytkownika z mapą, które mogą być przetwarzane poza kontrolą administratora
                         strony. Więcej informacji na temat polityki prywatności Google można znaleźć
-                        !!tutaj!!.
+                        <a href="https://policies.google.com/privacy?hl=pl" target="_blank">
+                          tutaj</a
+                        >.
                       </p>
                     </li>
                     <li>
@@ -150,6 +152,11 @@ const closeModal = () => {
 </script>
 
 <style scoped>
+a {
+  width: fit-content;
+  color: var(--text-color-primary);
+  text-decoration: underline;
+}
 .close-btn {
   position: absolute;
   top: 1rem;
@@ -233,10 +240,7 @@ h3 {
   padding-left: 1rem;
   margin-top: 1rem;
 }
-.extra-links a {
-  color: var(--text-color-primary);
-  text-decoration: underline;
-}
+
 @media (max-width: 1000px) {
   .wrapper {
     width: 100%;
