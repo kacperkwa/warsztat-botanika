@@ -7,7 +7,7 @@
     <div class="project-thumbnail">
       <img
         :src="getImgSrc(project.id, project.thumbnail)"
-        alt="Miniatura projektu."
+        alt="Miniatura projektu ogrodu."
         loading="lazy"
       />
       <div class="overlay"><p>kliknij po więcej</p></div>

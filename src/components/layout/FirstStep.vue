@@ -5,7 +5,7 @@
       <div class="content-container">
         <p>
           Aby ułatwić i&nbsp;przyspieszyć proces projektowy, stworzyłam specjalną ankietę. Dzięki
-          niej mogę dokładnie poznać Twoje oczekiwania &nbsp;potrzeby dotyczące projektu ogrodu.
+          niej mogę dokładnie poznać Twoje oczekiwania i&nbsp;potrzeby dotyczące projektu ogrodu.
           Ankieta pozwala zebrać wszystkie istotne informacje, a&nbsp;także umożliwia przesłanie
           inspiracji&nbsp;oraz własnych materiałów.<br />
           Zachęcam do&nbsp;wypełnienia ankiety, abyśmy mogli wspólnie rozpocząć pracę nad Twoim
