@@ -28,7 +28,7 @@
             </p>
           </li>
           <li>
-            <p>model koncepcyjny 3D wybranej wersji</p>
+            <p>model koncepcyjny 3D wybranej wersji ogrodu</p>
           </li>
           <li>
             <p>
