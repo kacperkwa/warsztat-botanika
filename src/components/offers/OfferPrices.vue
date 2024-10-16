@@ -4,13 +4,13 @@
     <div class="prices-table">
       <div class="first-row-title div1">powierzchnia opracowania</div>
       <div class="first-row-item div2">
-        <span>do 200&nbsp;m<sup>2</sup></span>
+        <span>do 100&nbsp;m<sup>2</sup></span>
       </div>
       <div class="first-row-item div3">
-        <span>201 - 800&nbsp;m<sup>2</sup></span>
+        <span>101 - 600&nbsp;m<sup>2</sup></span>
       </div>
       <div class="first-row-item div4">
-        <span>801 - 1500&nbsp;m<sup>2</sup></span>
+        <span>601 - 1500&nbsp;m<sup>2</sup></span>
       </div>
       <div class="second-row-title div5">WARIANT PODSTAWOWY</div>
       <div class="second-row-item div6">700 - 2&nbsp;000&nbsp;zł</div>
@@ -54,7 +54,7 @@
         </ul>
       </div>
       <div class="fourth-row-title div10">WARIANT ROZSZERZONY</div>
-      <div class="fourth-row-item div11">1 400 - 4&nbsp;000&nbsp;zł</div>
+      <div class="fourth-row-item div11">2 400 - 4&nbsp;000&nbsp;zł</div>
       <div class="fourth-row-item div12">4 000 - 8&nbsp;000&nbsp;zł</div>
       <div class="fourth-row-item div13">8 000 - 15&nbsp;000&nbsp;zł</div>
       <div class="fifth-row-item div14">

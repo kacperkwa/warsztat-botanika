@@ -27,7 +27,7 @@
               ><a
                 href="https://www.facebook.com/people/Warsztat-Botanika/61550301932056/?_rdr"
                 target="_blank"
-                >facebook/warsztabotanika</a
+                >facebook/warsztatbotanika</a
               >
             </li>
             <li class="contact-location">
