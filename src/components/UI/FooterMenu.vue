@@ -7,6 +7,7 @@
       <li><a href="#pierwszy-krok">pierwszy krok</a></li>
       <li><button @click="openModal">polityka prywatności i cookies</button></li>
     </ul>
+    <p>&copy;2024 Warsztat Botanika</p>
   </nav>
   <PolicyModal v-if="useModal.isPolicyModalOpen"></PolicyModal>
 </template>
@@ -23,6 +24,9 @@ const openModal = () => {
 <style scoped>
 .menu-container {
   display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
   justify-content: center;
   position: absolute;
   bottom: 0;
